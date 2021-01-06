@@ -1,8 +1,8 @@
 ---
 layout: syllabus
 permalink: /
-title: "CS173: Intro to Computer Science"
-excerpt: "CS173: Intro to Computer Science"
+title: "CS475: Computer Networks"
+excerpt: "CS475: Computer Networks"
     
 info:
   course_number: CS475
