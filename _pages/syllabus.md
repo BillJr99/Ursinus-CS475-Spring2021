@@ -203,9 +203,6 @@ university:
     kdate: "2020/12/22"
     kdisplay: false
   spring:
-  - kname: "Reading Day"
-    kdate: "2021/05/6"
-    kdisplay: true
   - kname: "Add Deadline"
     kdate: "2021/02/2"
     kdisplay: true
@@ -215,6 +212,9 @@ university:
   - kname: "Mid Semester Grades Posted"
     kdate: "2021/03/5"
     kdisplay: false
+  - kname: "Reading Day"
+    kdate: "2021/05/6"
+    kdisplay: false    
   - kname: "Baccalaureate"
     kdate: "2021/05/14"
     kdisplay: false
@@ -232,11 +232,12 @@ university:
   - date: "2020/11/26"
   - date: "2020/11/27" 
   springholidays:
-  - date: "2021/03/08"  
-  - date: "2021/03/09"
-  - date: "2021/03/10"
-  - date: "2021/03/11"
-  - date: "2021/03/12"
+  - date: "2021/01/18"  
+  - date: "2021/02/18"  
+  - date: "2021/03/3"  
+  - date: "2021/03/9"
+  - date: "2021/03/16" 
+  - date: "2021/03/31"
     
 ---
 
