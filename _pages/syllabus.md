@@ -18,7 +18,7 @@ info:
   course_start_date: "2021/01/18"
   course_end_date: "2021/05/05"
   course_description: "Architecture and protocols of computer networks. Protocol layers; network topology; data-communication principles, including circuit switching, packet switching and error control techniques; sliding window protocols, protocol analysis and verification; routing and flow control; local and wide area networks; network interconnection; client-server interaction; emerging networking trends and technologies; topicsin security and privacy. This course will satisfy the College requirement for a capstone experience in the major. Prerequisite or co-requisite: CS-274. Offered in the spring of odd years. Three hours per week. Four semester hours."
-  welcome_message: "Welcome to CS475!  In this course, ."
+  welcome_message: "Welcome to CS475!"
   zoom:
   - section:
       zoomlink: "https://ursinus-edu.zoom.us/j/98917954390"
@@ -49,16 +49,8 @@ info:
     - mdate: "2021/02/26"
       mstarttime: "10:00 AM"
       mendtime: "10:50 AM"
-      mroom: "Regular Class Period"
-    - mdate: "TBD"
-      mstarttime: "TBD"
-      mendtime: "TBD"
-      mroom: "TBD"      
+      mroom: "Regular Class Period"      
   finalexam: 
-    - fdate: "TBD"
-      fstarttime: "TBD"
-      fendtime: "TBD"
-      froom: "TBD"
     - fdate: "TBD"
       fstarttime: "TBD"
       fendtime: "TBD"
@@ -73,7 +65,7 @@ info:
             <a title="Offnfopt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:OSI_Model_v1.svg"><img width="256" alt="OSI Model v1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/256px-OSI_Model_v1.svg.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <img width="100%" style="display:block;" alt="Network Topology" src="https://publicdomainvectors.org/photos/dexMilano-How-to-create-a-network-using-Dex-library.png">
+            <a title="Rarelibra, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_map_of_submarine_cables.png"><img width="512" alt="World map of submarine cables" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/World_map_of_submarine_cables.png/512px-World_map_of_submarine_cables.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
             <a title="Shiyu Ji, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RR_BGP.svg"><img width="512" alt="RR BGP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/RR_BGP.svg/512px-RR_BGP.svg.png"></a>
@@ -180,7 +172,8 @@ schedule:
   title: "Course Overview"
 - week: "14"
   date: "1"
-  title: "Final Project Presentations"  
+  title: "Final Project Presentations" 
+  
 university:
   semester: "Fall"
   academicyear: "2020-21"
