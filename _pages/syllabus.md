@@ -62,13 +62,13 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Offnfopt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:OSI_Model_v1.svg"><img alt="OSI Model v1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/256px-OSI_Model_v1.svg.png"></a>
+            <a title="Offnfopt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:OSI_Model_v1.svg"><img width="100%" style="display:block;" alt="OSI Model v1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/256px-OSI_Model_v1.svg.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Rarelibra, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_map_of_submarine_cables.png"><img alt="World map of submarine cables" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/World_map_of_submarine_cables.png/512px-World_map_of_submarine_cables.png"></a>
+            <a title="Rarelibra, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_map_of_submarine_cables.png"><img width="100%" style="display:block;" alt="World map of submarine cables" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/World_map_of_submarine_cables.png/512px-World_map_of_submarine_cables.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Shiyu Ji, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RR_BGP.svg"><img alt="RR BGP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/RR_BGP.svg/512px-RR_BGP.svg.png"></a>
+            <a title="Shiyu Ji, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RR_BGP.svg"><img width="100%" style="display:block;" alt="RR BGP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/RR_BGP.svg/512px-RR_BGP.svg.png"></a>
         </div>
     </div>
     </div>
