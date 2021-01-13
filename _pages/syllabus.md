@@ -145,9 +145,9 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "40%"
+  weight: "30%"
 - category: "Labs"
-  weight: "25%"
+  weight: "35%"
 - category: "Midterm Exam"
   weight: "15%"
 - category: "Final Project"
