@@ -219,6 +219,7 @@ schedule:
 - week: "1"
   date: "1"
   title: "Networking: A Layered Approach"
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx"
   readings:
   - rtitle: "Kurose and Ross: Protocol Layers"
     rlink: "https://youtu.be/IZ_PnVXtMeY"  
@@ -249,7 +250,8 @@ schedule:
   title: "CSMA"  
 - week: "2"
   date: "2"
-  title: "Wi-Fi" 
+  title: "Wi-Fi"
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx"  
   readings:
   - rtitle: "Dordal Ch. 4"
     rlink: false   
@@ -266,7 +268,8 @@ schedule:
     rlink: false   
 - week: "3"
   date: "1"
-  title: "The Link Layer"  
+  title: "The Link Layer" 
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx"  
   readings:
   - rtitle: "Dordal Ch. 6"
     rlink: false  
@@ -303,11 +306,10 @@ schedule:
 - week: "4"
   date: "2"
   title: "The Network Layer"  
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"  
   readings:
   - rtitle: "Dordal Ch. 9"
     rlink: false  
-  - rtitle: "Kurose and Ross: The Network Layer Control Plane"
-    rlink: "https://youtu.be/Aeb80Q_mJp4" 
   - rtitle: "Kurose and Ross: The Network Layer Data Plane"
     rlink: "https://youtu.be/olbr3WZwrdU"     
 - week: "5"
@@ -339,7 +341,7 @@ schedule:
   title: "IP Multiplexing with NAT"  
 - week: "6"
   date: "0"
-  title: "Outside Address Lookups with DNS"  
+  title: "Outside Address Lookups with DNS" 
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
@@ -395,12 +397,15 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
 - week: "8"
   date: "1"
-  title: "Routing"  
+  title: "Routing" 
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_5_v8.0.pptx"  
   readings:
   - rtitle: "Dordal Ch. 13"
     rlink: false 
+  - rtitle: "Kurose and Ross: The Network Layer Control Plane"
+    rlink: "https://youtu.be/Aeb80Q_mJp4"     
   - rtitle: "Kurose and Ross: Routing Algorithms"
-    rlink: "https://youtu.be/bdh2kfgxVuw"    
+    rlink: "https://youtu.be/bdh2kfgxVuw"        
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 1"
     rlink: "https://youtu.be/NfHR94JAO-s"   
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
@@ -431,6 +436,7 @@ schedule:
 - week: "9"
   date: "2"
   title: "The Transport Layer: Considerations"
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_3_v8.0.pptx"
   readings:
   - rtitle: "Dordal Ch. 16"
     rlink: false   
@@ -485,6 +491,7 @@ schedule:
 - week: "12"
   date: "0"
   title: "Application Layer Protocols: HTTP"  
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_2_v8.1.pptx"
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
@@ -538,6 +545,7 @@ schedule:
 - week: "13"
   date: "2"
   title: "Security and Privacy"
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx"
   readings:
   - rtitle: "Redbook Ch. 22"
     rlink: false  
