@@ -1,0 +1,39 @@
+---
+layout: assignment
+permalink: /Assignments/RFC
+title: "CS475: Computer Networks - Introduction to the RFC"
+excerpt: "CS475: Computer Networks - Introduction to the RFC"
+
+info:
+  coursenum: CS475
+  points: 100
+  goals:
+    - To explain the basic components of an RFC
+      
+tags:
+  - rfc
+  
+---
+
+## The RFC
+
+Review the following standard Request for Comments (RFC) documents, which describe the message formats and workflow of protocols.
+
+* FTP: [RFC 959](http://www.rfcs.org/rfc959.txt) 
+* DNS [RFC 1034](http://www.rfcs.org/rfc1034.txt) 
+* HTTP 1.1: [RFC 2616](http://www.rfcs.org/rfc2616.txt) 
+* SMTP: [RFC 2821](http://www.rfcs.org/rfc2821.txt) 
+* XMPP: [RFC 3920](http://www.rfcs.org/rfc3920.txt) 
+* SSH: [RFC 4250](http://www.rfcs.org/rfc4250.txt)
+
+Describe, in your own words, what an RFC is.  What are the major components common to each RFC, and what do you notice about their structure?  How do RFC documents differentiate between what an implementing program *must* do, and what a program can optionally do? If an implementing program handles a protocol concept in an optional but non-standard way, what are the risks?
+
+## Designing a Protocol
+
+Imagine that the course registration process did not involve using a computer to sign up for classes using a web-page.  Instead, you called the Registrar on the telephone, and let them know which classes you wished to take.  In turn, the Registrar would inform you if you are able to take those classes, and, if so, would register you for those classes and confirm your schedule.
+
+The Registrar wishes to do this as efficiently as possible, and so students would ask standardized questions (in other words, every student conversation should be exactly the same).  
+
+1. What questions and answers might you ask of the Registrar to learn about course availability and to register for classes?
+2. What errors might you anticipate (as an example, a class might be full), and what messages should be sent back and forth to note the different types of errors?
+3. Diagram a flow chart that allows a student to register for a course, learn whether their registration was successful, and continue registering for courses, one-by-one, until the registration process is complete.

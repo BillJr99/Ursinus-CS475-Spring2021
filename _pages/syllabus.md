@@ -6,6 +6,7 @@ excerpt: "CS475: Computer Networks"
     
 info:
   course_number: CS475
+  course_number: CS475
   course_sections: 
   - section: "A"
   course_title: "Computer Networks"
@@ -145,9 +146,9 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "30%"
+  weight: "25%"
 - category: "Labs"
-  weight: "35%"
+  weight: "40%"
 - category: "Midterm Exam"
   weight: "15%"
 - category: "Final Project"
@@ -209,6 +210,7 @@ schedule:
   deliverables:
   - dtitle: "Lab: Wireshark Overview Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
+    points: 10
   readings:
   - rtitle: "Kurose and Ross: The Network Edge"
     rlink: "https://youtu.be/k8NmM-hImBU"  
@@ -243,11 +245,17 @@ schedule:
   deliverables:
   - dtitle: "Lab: Wireshark Overview Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
+    points: 10
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
+    points: 10
 - week: "2"
   date: "1"
-  title: "CSMA"  
+  title: "CSMA" 
+  deliverables:
+  - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
+    dlink: "Assignments/RFC"
+    points: 100  
 - week: "2"
   date: "2"
   title: "Wi-Fi"
@@ -261,8 +269,10 @@ schedule:
   deliverables: 
   - dtitle: "Lab: HTTP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
+    points: 10
   - dtitle: "Lab: Ethernet with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"     
+    points: 10
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false   
@@ -295,18 +305,24 @@ schedule:
   deliverables:
   - dtitle: "Lab: Ethernet with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
+    points: 10
   - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
+    points: 10
 - week: "4"
   date: "1"
   title: "Sliding Window Protocols"  
+  deliverables:
+  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
+    dlink: "Assignments/RFC"
+    points: 100    
   readings:
   - rtitle: "Dordal Ch. 8"
     rlink: false    
 - week: "4"
   date: "2"
   title: "The Network Layer"  
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"  
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"
   readings:
   - rtitle: "Dordal Ch. 9"
     rlink: false  
@@ -318,8 +334,10 @@ schedule:
   deliverables:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
+    points: 10
   - dtitle: "Lab: IP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
+    points: 10
   readings:
   - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
@@ -335,7 +353,8 @@ schedule:
     rlink: "https://youtu.be/kKZlPeyef0k" 
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
-    dlink: ""    
+    dlink: false
+    points: 100    
 - week: "5"
   date: "2"
   title: "IP Multiplexing with NAT"  
@@ -345,10 +364,13 @@ schedule:
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
+    points: 10
   - dtitle: "Midterm Exam: Midterm Due"
-    dlink: "" 
+    dlink: false
+    points: 100
   - dtitle: "Lab: NAT with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"      
+    points: 10
   readings:
   - rtitle: "Dordal Ch. 10"
     rlink: false   
@@ -368,9 +390,11 @@ schedule:
   title: "Dynamic Configuration with DHCP"
   deliverables:
   - dtitle: "Lab: NAT with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"    
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"  
+    points: 10    
   - dtitle: "Lab: DHCP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
+    points: 10
 - week: "7"
   date: "1"
   title: "ICMP and Ping" 
@@ -393,8 +417,10 @@ schedule:
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf" 
+    points: 10
   - dtitle: "Lab: ICMP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
+    points: 10
 - week: "8"
   date: "1"
   title: "Routing" 
@@ -421,7 +447,8 @@ schedule:
   title: "Hierarchical Routing"  
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf" 
+    points: 10    
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
@@ -437,6 +464,10 @@ schedule:
   date: "2"
   title: "The Transport Layer: Considerations"
   link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_3_v8.0.pptx"
+  deliverables: 
+  - dtitle: "Programming Assignment: HTTP Client Handed Out"
+    dlink: "Assignments/HTTPClient"
+    points: 100
   readings:
   - rtitle: "Dordal Ch. 16"
     rlink: false   
@@ -458,7 +489,8 @@ schedule:
   title: "Coordinating Transport Services with TCP" 
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf"   
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
+    points: 10    
   readings:
   - rtitle: "Dordal Ch. 17"
     rlink: false  
@@ -477,6 +509,13 @@ schedule:
 - week: "11"
   date: "2"
   title: "Congestion Management with TCP"  
+  deliverables: 
+  - dtitle: "Programming Assignment: HTTP Client Due"
+    dlink: "Assignments/HTTPClient"
+    points: 100  
+  - dtitle: "Programming Assignment: TCP over UDP Handed Out"  
+    dlink: "Assignments/TCPOverUDP"
+    points: 100  
   readings:
   - rtitle: "Dordal Ch. 18"
     rlink: false  
@@ -495,8 +534,10 @@ schedule:
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
+    points: 10
   - dtitle: "Lab: TCP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
+    points: 10
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
@@ -511,7 +552,8 @@ schedule:
   title: "SMTP"  
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: "Projects/Final"      
+    dlink: "Projects/Final"  
+    points: 100   
   readings:
   - rtitle: "Redbook Ch. 15"
     rlink: false  
@@ -533,8 +575,10 @@ schedule:
   deliverables:
   - dtitle: "Lab: TCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
+    points: 10
   - dtitle: "Lab: DNS with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
+    points: 10
 - week: "13"
   date: "1"
   title: "Multithreaded Socket Programming"    
@@ -542,10 +586,16 @@ schedule:
     - dtitle: "Participation: Second Self-Assessment Handed Out"
       dlink: "./Assignments/Participation/SelfAssessment"
       points: 10     
+    - dtitle: "Programming Assignment: TCP over UDP Due"  
+      dlink: "Assignments/TCPOverUDP"
+      points: 100  
+    - dtitle: "Programming Assignment: TFTP Handed Out"  
+      dlink: "Assignments/TFTP"
+      points: 100         
 - week: "13"
   date: "2"
   title: "Security and Privacy"
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx"
+  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx"    
   readings:
   - rtitle: "Redbook Ch. 22"
     rlink: false  
@@ -554,9 +604,11 @@ schedule:
   title: "Security and Privacy"   
   deliverables:
   - dtitle: "Lab: DNS with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"   
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
+    points: 10    
   - dtitle: "Lab: SSL with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
+    points: 10
 - week: "14"
   date: "1"
   title: "Security and Privacy"   
@@ -564,15 +616,19 @@ schedule:
     - dtitle: "Participation: Second Self-Assessment Due"
       dlink: "./Assignments/Participation/SelfAssessment"
       points: 10    
+    - dtitle: "Programming Assignment: TFTP Due"  
+      dlink: "Assignments/TFTP"
+      points: 100              
 - week: "15"
   date: "0"
   title: "Review"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "Projects/Final"
+    points: 100
   - dtitle: "Lab: SSL with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
-  
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf" 
+    points: 10    
 university:
   semester: "Spring"
   academicyear: "2020-21"

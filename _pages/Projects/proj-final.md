@@ -16,13 +16,13 @@ info:
       preemerging: The algorithm fails on the test inputs due to major issues, or the program fails to compile and/or run
       beginning: The algorithm fails on the test inputs due to one or more minor issues
       progressing: The algorithm is implemented to solve the problem correctly according to given test inputs, but includes only a single class, or would fail if executed in a general case due to a minor issue or omission in the algorithm design or implementation
-      proficient: A reasonable algorithm with multiple classes is implemented to solve the problem which correctly solves the problem according to the given test inputs, and would be reasonably expected to solve the problem in the general case
+      proficient: A reasonable algorithm with at least two peers is implemented to solve the problem which correctly solves the problem according to the given test inputs, and would be reasonably expected to solve the problem in the general case
     - weight: 20
-      description: Test Cases
-      preemerging: Testing was performed outside of the unit test framework, or not performed at all
-      beginning: Trivial test cases are provided in a unit test framework
-      progressing: Test cases that cover some, but not all, boundary cases and branches of the program are provided
-      proficient: Test cases that cover all boundary cases and branches of the program are provided
+      description: Protocol Description
+      preemerging: Neither the workflow nor the message units are described at an adequate level of detail to comprehend the protocol
+      beginning: Either the workflow or the message units are described adequately
+      progressing: The protocol was described to include the message units and workflow at an adequate level of detail to comprehend the protocol
+      proficient: The protocol was described to include the message units and workflow at a level of detail that another person could implement
     - weight: 20
       description: Code Quality and Documentation
       preemerging: Code commenting and structure are absent, or code structure departs significantly from best practice, and/or the code departs significantly from the style guide
@@ -50,6 +50,8 @@ tags:
 In this project, you will propose a topic of your choosing and a group of at least 2 and up to 3 total members.  The project must be approved by the instructor before it may commence, but the topic is entirely up to you.  Multidisciplinary projects with a broader impact are encouraged, and you are welcome to collaborate with a stakeholder outside the department for inspiration on potential projects (this person is not to contribute code, only disciplinary context).
 
 You may use git or another version control system to coordinate between your team.  **Each student shall contribute by checking in meaningful contributions to the project on the version control system.  If a version control system is not used, code sections should be commented with the initials or recognized pseudonym of the student.**
+
+You may design, document, implement a protocol of your choosing, including the message units and the protocol workflow.  Your implementation will have at least two peers (for example, a client and a server) that interact with one another.  Your project should support multiple simultaneous connections via threaded socket programming.
 
 Finally, prepare as a team a project presentation that you will present live to the class for final presentations.  **Each student must have a speaking role** at the presentation.
 
