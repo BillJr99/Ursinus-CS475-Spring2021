@@ -133,7 +133,7 @@ DTSTAMP:20210127T000000Z
 DTSTART;VALUE=DATE:20210127
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -196,7 +196,7 @@ DTSTAMP:20210205T000000Z
 DTSTART;VALUE=DATE:20210205
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 4
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx\nReading: Dordal Ch. 4
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -232,7 +232,7 @@ DTSTAMP:20210210T000000Z
 DTSTART;VALUE=DATE:20210210
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -295,7 +295,7 @@ DTSTAMP:20210219T000000Z
 DTSTART;VALUE=DATE:20210219
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -493,7 +493,7 @@ DTSTAMP:20210317T000000Z
 DTSTART;VALUE=DATE:20210317
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 13\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_5_v8.0.pptx\nReading: Dordal Ch. 13\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -538,7 +538,7 @@ DTSTAMP:20210326T000000Z
 DTSTART;VALUE=DATE:20210326
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_3_v8.0.pptx\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -619,7 +619,7 @@ DTSTAMP:20210412T000000Z
 DTSTART;VALUE=DATE:20210412
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Lab: UDP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf\nDeliverable: Lab: TCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_2_v8.1.pptx\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Lab: UDP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf\nDeliverable: Lab: TCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -700,7 +700,7 @@ DTSTAMP:20210423T000000Z
 DTSTART;VALUE=DATE:20210423
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Redbook Ch. 22
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx\nReading: Redbook Ch. 22
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
