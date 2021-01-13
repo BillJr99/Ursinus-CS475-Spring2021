@@ -129,7 +129,7 @@ textbooks:
   edition: "8th Edition"
   isbn: "N/A"
   link: "http://gaia.cs.umass.edu/kurose_ross"
-  image: http://gaia.cs.umass.edu/kurose_ross/header_graphic_book_8E_2.jpg
+  image: false
   isrequired: false
   freelyavailable: false  
 
@@ -202,6 +202,9 @@ schedule:
 - week: "1"
   date: "0"
   title: "Sending Packets"
+  deliverables:
+  - dtitle: "Lab: Wireshark Overview Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
   readings:
   - rtitle: "Kurose and Ross: The Network Edge"
     rlink: "https://youtu.be/k8NmM-hImBU"  
@@ -228,6 +231,11 @@ schedule:
 - week: "2"
   date: "0"
   title: "Ethernet"  
+  deliverables:
+  - dtitle: "Lab: Wireshark Overview Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
+  - dtitle: "Lab: HTTP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
 - week: "2"
   date: "1"
   title: "CSMA"  
@@ -240,6 +248,11 @@ schedule:
 - week: "3"
   date: "0"
   title: "VPN"  
+  deliverables: 
+  - dtitle: "Lab: HTTP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
+  - dtitle: "Lab: Ethernet with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"     
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false   
@@ -268,6 +281,11 @@ schedule:
 - week: "4"
   date: "0"
   title: "From Bits to Packets"  
+  deliverables:
+  - dtitle: "Lab: Ethernet with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
+  - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
 - week: "4"
   date: "1"
   title: "Sliding Window Protocols"  
@@ -287,6 +305,11 @@ schedule:
 - week: "5"
   date: "0"
   title: "IPv4" 
+  deliverables:
+  - dtitle: "Lab: Wi-Fi with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
+  - dtitle: "Lab: IP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
   readings:
   - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
@@ -299,13 +322,23 @@ schedule:
   - rtitle: "Kurose and Ross: Generalized Forwarding"
     rlink: "https://youtu.be/HIPVDxTrHqI"       
   - rtitle: "Kurose and Ross: Middleboxes"
-    rlink: "https://youtu.be/kKZlPeyef0k"        
+    rlink: "https://youtu.be/kKZlPeyef0k" 
+  deliverables:
+  - dtitle: "Midterm Exam: Midterm Handed Out"
+    dlink: ""    
 - week: "5"
   date: "2"
   title: "IP Multiplexing with NAT"  
 - week: "6"
   date: "0"
   title: "Outside Address Lookups with DNS"  
+  deliverables:    
+  - dtitle: "Lab: IP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
+  - dtitle: "Midterm Exam: Midterm Due"
+    dlink: "" 
+  - dtitle: "Lab: NAT with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"      
   readings:
   - rtitle: "Dordal Ch. 10"
     rlink: false   
@@ -315,16 +348,21 @@ schedule:
     rlink: "https://youtu.be/6lRcMh5Yphg"    
 - week: "6"
   date: "2"
-  title: "Inside Address Lookups with ARP"  
+  title: "Inside Address Lookups with ARP"    
 - week: "7"
   date: "0"
-  title: "Dynamic Configuration with DHCP"  
+  title: "Dynamic Configuration with DHCP"
+  deliverables:
+  - dtitle: "Lab: NAT with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"    
+  - dtitle: "Lab: DHCP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
 - week: "7"
   date: "1"
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
-    rlink: "https://youtu.be/EHV0Q0R--Ns"      
+    rlink: "https://youtu.be/EHV0Q0R--Ns"    
 - week: "7"
   date: "2"
   title: "IPv6"  
@@ -333,7 +371,12 @@ schedule:
     rlink: false   
 - week: "8"
   date: "0"
-  title: "Tunneling"  
+  title: "Tunneling" 
+  deliverables:
+  - dtitle: "Lab: DHCP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf" 
+  - dtitle: "Lab: ICMP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
 - week: "8"
   date: "1"
   title: "Routing"  
@@ -355,6 +398,9 @@ schedule:
 - week: "9"
   date: "0"
   title: "Hierarchical Routing"  
+  deliverables:
+  - dtitle: "Lab: ICMP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
@@ -387,7 +433,10 @@ schedule:
   title: "UDP"  
 - week: "11"
   date: "0"
-  title: "Coordinating Transport Services with TCP"  
+  title: "Coordinating Transport Services with TCP" 
+  deliverables:
+  - dtitle: "Lab: UDP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf"   
   readings:
   - rtitle: "Dordal Ch. 17"
     rlink: false  
@@ -403,8 +452,8 @@ schedule:
     rlink: "https://youtu.be/UYJP-6mhF6E"      
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
     rlink: "https://youtu.be/E4I6t0mI_is"        
-- week: "14"
-  date: "0"
+- week: "11"
+  date: "2"
   title: "Congestion Management with TCP"  
   readings:
   - rtitle: "Dordal Ch. 18"
@@ -417,12 +466,14 @@ schedule:
     rlink: "https://youtu.be/oRUIEmpzk0Y" 
   - rtitle: "Kurose and Ross: Transport Layer Summary"
     rlink: "https://youtu.be/XPPsub35eNY"      
-- week: "11"
-  date: "2"
+- week: "12"
+  date: "0"
   title: "Application Layer Protocols: HTTP"  
   deliverables:
-  - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: ""    
+  - dtitle: "Lab: UDP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
+  - dtitle: "Lab: TCP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
@@ -433,15 +484,18 @@ schedule:
   - rtitle: "Kurose and Ross: The Web and HTTP Part 2"
     rlink: "https://youtu.be/4M39gEPWPYs"     
 - week: "12"
-  date: "0"
-  title: "SMTP"    
+  date: "1"
+  title: "SMTP"  
+  deliverables:
+  - dtitle: "Final Project: Project and Presentation Handed Out"
+    dlink: ""      
   readings:
   - rtitle: "Redbook Ch. 15"
     rlink: false  
   - rtitle: "Kurose and Ross: Email"
     rlink: "https://youtu.be/D3GMrOMR2dk"
 - week: "12"
-  date: "1"
+  date: "2"
   title: "Socket Programming"   
   readings:
   - rtitle: "Redbook Ch. 11"
@@ -450,12 +504,14 @@ schedule:
     rlink: "https://youtu.be/ak5bbb-xHLI" 
   - rtitle: "Kurose and Ross: Socket Programming"
     rlink: "https://youtu.be/_iHMMo7SDfQ"     
-- week: "12"
-  date: "2"
-  title: "Socket Programming"    
 - week: "13"
   date: "0"
-  title: "Multithreaded Socket Programming"    
+  title: "Socket Programming"  
+  deliverables:
+  - dtitle: "Lab: TCP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
+  - dtitle: "Lab: DNS with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
 - week: "13"
   date: "1"
   title: "Multithreaded Socket Programming"    
@@ -467,16 +523,23 @@ schedule:
     rlink: false  
 - week: "14"
   date: "0"
-  title: "Security and Privacy"    
+  title: "Security and Privacy"   
+  deliverables:
+  - dtitle: "Lab: DNS with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"   
+  - dtitle: "Lab: SSL with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
 - week: "14"
   date: "1"
-  title: "Security and Privacy"    
+  title: "Security and Privacy"     
 - week: "15"
   date: "0"
   title: "Review"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: ""
+  - dtitle: "Lab: SSL with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
   
 university:
   semester: "Spring"
