@@ -349,6 +349,7 @@ schedule:
   title: "Security and Privacy"    
 - week: "15"
   date: "0"
+  title: "Review"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: ""
