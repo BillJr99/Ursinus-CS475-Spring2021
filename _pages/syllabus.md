@@ -195,6 +195,10 @@ schedule:
     rlink: false
   - rtitle: "Kurose and Ross: What is the Internet?"
     rlink: "https://youtu.be/74sEFYBBRAY"
+  - rtitle: "Jim Kurose: Wireshark Demo"
+    rlink: "https://www.youtube.com/watch?v=PYoXowOCppc"
+  - rtitle: "Jim Kurose: Traceroute Demo"
+    rlink: "https://www.youtube.com/watch?v=wEWiYLb7pxg"
 - week: "1"
   date: "0"
   title: "Sending Packets"
@@ -378,9 +382,6 @@ schedule:
   readings:
   - rtitle: "Kurose and Ross: Connectionless Transport with UDP"
     rlink: "https://youtu.be/VjBDgcNno-Q"    
-  deliverables:
-  - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: ""  
 - week: "10"
   date: "2"
   title: "UDP"  
@@ -419,6 +420,9 @@ schedule:
 - week: "11"
   date: "2"
   title: "Application Layer Protocols: HTTP"  
+  deliverables:
+  - dtitle: "Final Project: Project and Presentation Handed Out"
+    dlink: ""    
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
