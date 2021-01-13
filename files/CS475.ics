@@ -97,7 +97,7 @@ DTSTAMP:20210122T000000Z
 DTSTART;VALUE=DATE:20210122
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 1
+DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -106,7 +106,7 @@ DTSTAMP:20210125T000000Z
 DTSTART;VALUE=DATE:20210125
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: The Network Edge https://youtu.be/k8NmM-hImBU\nReading: Kurose and Ross: The Network Core https://youtu.be/f1nUcCdQJ8Y\nReading: Kurose and Ross: Network Performance https://youtu.be/hm1y4LsphQQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -115,7 +115,7 @@ DTSTAMP:20210127T000000Z
 DTSTART;VALUE=DATE:20210127
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -124,7 +124,7 @@ DTSTAMP:20210129T000000Z
 DTSTART;VALUE=DATE:20210129
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 2
+DESCRIPTION:\nReading: Dordal Ch. 2
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -151,7 +151,7 @@ DTSTAMP:20210205T000000Z
 DTSTART;VALUE=DATE:20210205
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 4
+DESCRIPTION:\nReading: Dordal Ch. 4
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -160,7 +160,7 @@ DTSTAMP:20210208T000000Z
 DTSTART;VALUE=DATE:20210208
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 5
+DESCRIPTION:\nReading: Dordal Ch. 5
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -169,7 +169,7 @@ DTSTAMP:20210210T000000Z
 DTSTART;VALUE=DATE:20210210
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 6
+DESCRIPTION:\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -178,7 +178,7 @@ DTSTAMP:20210212T000000Z
 DTSTART;VALUE=DATE:20210212
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Multiple Access Links and Protocols https://youtu.be/X2cLpzFRMT4
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -187,7 +187,7 @@ DTSTAMP:20210208T000000Z
 DTSTART;VALUE=DATE:20210208
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 7
+DESCRIPTION:\nReading: Dordal Ch. 7
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -205,7 +205,7 @@ DTSTAMP:20210217T000000Z
 DTSTART;VALUE=DATE:20210217
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 8
+DESCRIPTION:\nReading: Dordal Ch. 8
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -214,7 +214,7 @@ DTSTAMP:20210219T000000Z
 DTSTART;VALUE=DATE:20210219
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 9
+DESCRIPTION:\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -223,7 +223,7 @@ DTSTAMP:20210222T000000Z
 DTSTART;VALUE=DATE:20210222
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: The Internet Protocol Part 1 https://youtu.be/sdIpLuIR1ZY\nReading: Kurose and Ross: The Internet Protocol Part 2 https://youtu.be/H9DivCEFuUg
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -232,7 +232,7 @@ DTSTAMP:20210224T000000Z
 DTSTART;VALUE=DATE:20210224
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Generalized Forwarding https://youtu.be/HIPVDxTrHqI\nReading: Kurose and Ross: Middleboxes https://youtu.be/kKZlPeyef0k
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -250,7 +250,7 @@ DTSTAMP:20210301T000000Z
 DTSTART;VALUE=DATE:20210301
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 10
+DESCRIPTION:\nReading: Dordal Ch. 10\nReading: Redbook Ch. 12\nReading: Kurose and Ross: DNS https://youtu.be/6lRcMh5Yphg
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -277,7 +277,7 @@ DTSTAMP:20210310T000000Z
 DTSTART;VALUE=DATE:20210310
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: The Internet Control Message Protocol (ICMP) https://youtu.be/EHV0Q0R--Ns
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -286,7 +286,7 @@ DTSTAMP:20210312T000000Z
 DTSTART;VALUE=DATE:20210312
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 11
+DESCRIPTION:\nReading: Dordal Ch. 11
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -304,7 +304,7 @@ DTSTAMP:20210317T000000Z
 DTSTART;VALUE=DATE:20210317
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 13
+DESCRIPTION:\nReading: Dordal Ch. 13\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -313,7 +313,7 @@ DTSTAMP:20210319T000000Z
 DTSTART;VALUE=DATE:20210319
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Intra-AS Routing https://youtu.be/iUQmn3nNjaI
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -322,7 +322,7 @@ DTSTAMP:20210322T000000Z
 DTSTART;VALUE=DATE:20210322
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 14
+DESCRIPTION:\nReading: Dordal Ch. 14
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -331,7 +331,7 @@ DTSTAMP:20210324T000000Z
 DTSTART;VALUE=DATE:20210324
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 15
+DESCRIPTION:\nReading: Dordal Ch. 15\nReading: Kurose and Ross: Routing Among the ISPs with BGP https://youtu.be/2rV4tJkP-CQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -340,7 +340,7 @@ DTSTAMP:20210326T000000Z
 DTSTART;VALUE=DATE:20210326
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 16
+DESCRIPTION:\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -358,7 +358,7 @@ DTSTAMP:20210329T000000Z
 DTSTART;VALUE=DATE:20210329
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Project and Presentation Handed Out
+DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q\nDeliverable: Final Project: Project and Presentation Handed Out
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -376,7 +376,7 @@ DTSTAMP:20210405T000000Z
 DTSTART;VALUE=DATE:20210405
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 17
+DESCRIPTION:\nReading: Dordal Ch. 17\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 1 https://youtu.be/nyUHUtmxWg0\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 2 https://youtu.be/vxgH6r-II2Q
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -385,7 +385,7 @@ DTSTAMP:20210407T000000Z
 DTSTART;VALUE=DATE:20210407
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 1 https://youtu.be/UYJP-6mhF6E\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 2 https://youtu.be/E4I6t0mI_is
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -394,7 +394,7 @@ DTSTAMP:20210426T000000Z
 DTSTART;VALUE=DATE:20210426
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Ch. 18
+DESCRIPTION:\nReading: Dordal Ch. 18\nReading: Kurose and Ross: Principles of Congestion Control https://youtu.be/Fm92xvIp6JY\nReading: Kurose and Ross: TCP Congestion Control https://youtu.be/cIHiSR4j3g4\nReading: Kurose and Ross: Evolution of Transport Layer Functionality https://youtu.be/oRUIEmpzk0Y\nReading: Kurose and Ross: Transport Layer Summary https://youtu.be/XPPsub35eNY
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -403,7 +403,7 @@ DTSTAMP:20210409T000000Z
 DTSTART;VALUE=DATE:20210409
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -412,7 +412,7 @@ DTSTAMP:20210412T000000Z
 DTSTART;VALUE=DATE:20210412
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -421,7 +421,7 @@ DTSTAMP:20210414T000000Z
 DTSTART;VALUE=DATE:20210414
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Redbook Ch. 11\nReading: Kurose and Ross: Video Streaming and Content Distribution https://youtu.be/ak5bbb-xHLI\nReading: Kurose and Ross: Socket Programming https://youtu.be/_iHMMo7SDfQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -457,7 +457,7 @@ DTSTAMP:20210423T000000Z
 DTSTART;VALUE=DATE:20210423
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Redbook Ch. 22
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
