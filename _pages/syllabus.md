@@ -397,6 +397,7 @@ schedule:
 - week: "11"
   date: "1"
   title: "TCP" 
+  readings:
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 1"
     rlink: "https://youtu.be/UYJP-6mhF6E"      
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
