@@ -97,7 +97,7 @@ DTSTAMP:20210122T000000Z
 DTSTART;VALUE=DATE:20210122
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY
+DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -347,22 +347,13 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c20
 DTSTAMP:20210329T000000Z
 DTSTART;VALUE=DATE:20210329
-SUMMARY:CS475 Computer Networks: Final Project: Project and Presentation Handed Out
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c21
-DTSTAMP:20210329T000000Z
-DTSTART;VALUE=DATE:20210329
-SUMMARY:CS475 Computer Networks: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q\nDeliverable: Final Project: Project and Presentation Handed Out
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c22
 DTSTAMP:20210402T000000Z
 DTSTART;VALUE=DATE:20210402
 SUMMARY:CS475 Computer Networks: Class Meeting
@@ -371,7 +362,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c23
+UID:00000000-0000-0000-0000-0451f2100c22
 DTSTAMP:20210405T000000Z
 DTSTART;VALUE=DATE:20210405
 SUMMARY:CS475 Computer Networks: Class Meeting
@@ -380,7 +371,7 @@ DESCRIPTION:\nReading: Dordal Ch. 17\nReading: Kurose and Ross: Principles of Re
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c24
+UID:00000000-0000-0000-0000-0451f2100c23
 DTSTAMP:20210407T000000Z
 DTSTART;VALUE=DATE:20210407
 SUMMARY:CS475 Computer Networks: Class Meeting
@@ -389,7 +380,7 @@ DESCRIPTION:\nReading: Kurose and Ross: Connection Oriented Transport with TCP P
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c25
+UID:00000000-0000-0000-0000-0451f2100c24
 DTSTAMP:20210426T000000Z
 DTSTART;VALUE=DATE:20210426
 SUMMARY:CS475 Computer Networks: Class Meeting
@@ -398,12 +389,21 @@ DESCRIPTION:\nReading: Dordal Ch. 18\nReading: Kurose and Ross: Principles of Co
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
+UID:00000000-0000-0000-0000-0451f2100c25
+DTSTAMP:20210409T000000Z
+DTSTART;VALUE=DATE:20210409
+SUMMARY:CS475 Computer Networks: Final Project: Project and Presentation Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c26
 DTSTAMP:20210409T000000Z
 DTSTART;VALUE=DATE:20210409
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs
+DESCRIPTION:\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Final Project: Project and Presentation Handed Out
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
