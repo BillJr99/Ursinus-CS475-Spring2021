@@ -637,7 +637,7 @@ DTSTAMP:20210414T000000Z
 DTSTART;VALUE=DATE:20210414
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk\nDeliverable: Final Project: Project and Presentation Handed Out
+DESCRIPTION:\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk\nDeliverable: Final Project: Project and Presentation Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Projects/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -772,7 +772,7 @@ DTSTAMP:20210503T000000Z
 DTSTART;VALUE=DATE:20210503
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Project and Presentation Due\nDeliverable: Lab: SSL with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf
+DESCRIPTION:\nDeliverable: Final Project: Project and Presentation Due https://www.billmongan.com/Ursinus-CS475-Spring2021/Projects/Final\nDeliverable: Lab: SSL with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
