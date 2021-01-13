@@ -105,7 +105,8 @@ instructors:
   - day: "F"
     starttime: "1:30 PM"
     endtime: "3:30 PM"
-    location: "Virtual Office Hours on Microsoft Teams"     
+    location: "Virtual Office Hours on Microsoft Teams"
+    
 textbooks:
 - title: "An Introduction to Computer Networks"
   authors: "Peter L Dordal"
@@ -115,6 +116,22 @@ textbooks:
   image: http://intronetworks.cs.luc.edu/cover.png
   isrequired: true 
   freelyavailable: http://intronetworks.cs.luc.edu/current2/ComputerNetworks.pdf
+- title: "TCP/IP Tutorial and Technical Overview"
+  authors: "Lydia Parziale et al"
+  edition: "IBM Redbook"
+  isbn: "N/A"
+  link: https://www.redbooks.ibm.com/redbooks/pdfs/gg243376.pdf
+  image: false
+  isrequired: true
+  freelyavailable: https://www.redbooks.ibm.com/redbooks/pdfs/gg243376.pdf
+- title: "Computer Networking: A Top Down Approach"
+  authors: "Jim Kurose and Keith Ross"
+  edition: "8th Edition"
+  isbn: "N/A"
+  link: "http://gaia.cs.umass.edu/kurose_ross"
+  image: http://gaia.cs.umass.edu/kurose_ross/header_graphic_book_8E_2.jpg
+  isrequired: false
+  freelyavailable: false  
 
 objectives:
 - objective: "To comprehend the design of a network protocol suitable for implementation"
@@ -174,19 +191,35 @@ schedule:
   date: "2"
   title: "Motivating Examples: nslookup, HTTP, Traceroute"
   readings:
-  - rtitle: "Ch. 1"
+  - rtitle: "Dordal Ch. 1"
     rlink: false
+  - rtitle: "Kurose and Ross: What is the Internet?"
+    rlink: "https://youtu.be/74sEFYBBRAY"
 - week: "1"
   date: "0"
-  title: "Sending Packets"  
+  title: "Sending Packets"
+  readings:
+  - rtitle: "Kurose and Ross: The Network Edge"
+    rlink: "https://youtu.be/k8NmM-hImBU"  
+  - rtitle: "Kurose and Ross: The Network Core"
+    rlink: "https://youtu.be/f1nUcCdQJ8Y" 
+  - rtitle: "Kurose and Ross: Network Performance"
+    rlink: "https://youtu.be/hm1y4LsphQQ"     
 - week: "1"
   date: "1"
   title: "Networking: A Layered Approach"
+  readings:
+  - rtitle: "Kurose and Ross: Protocol Layers"
+    rlink: "https://youtu.be/IZ_PnVXtMeY"  
+  - rtitle: "Kurose and Ross: Networks Under Attack"
+    rlink: "https://youtu.be/yukwBqSwAkg"    
+  - rtitle: "Kurose and Ross: History of Computer Networking"
+    rlink: "https://youtu.be/l4q8iuqbuiQ"       
 - week: "1"
   date: "2"
   title: "The Physical Layer: Considerations"
   readings:
-  - rtitle: "Ch. 2"
+  - rtitle: "Dordal Ch. 2"
     rlink: false  
 - week: "2"
   date: "0"
@@ -198,28 +231,35 @@ schedule:
   date: "2"
   title: "Wi-Fi" 
   readings:
-  - rtitle: "Ch. 4"
+  - rtitle: "Dordal Ch. 4"
     rlink: false   
 - week: "3"
   date: "0"
   title: "VPN"  
   readings:
-  - rtitle: "Ch. 5"
+  - rtitle: "Dordal Ch. 5"
     rlink: false   
 - week: "3"
   date: "1"
   title: "The Link Layer"  
   readings:
-  - rtitle: "Ch. 6"
-    rlink: false   
+  - rtitle: "Dordal Ch. 6"
+    rlink: false  
+  - rtitle: "Kurose and Ross: The Link Layer"
+    rlink: "https://youtu.be/lMGWJZLTulY"
+  - rtitle: "Kurose and Ross: Error Detection and Correction"
+    rlink: "https://youtu.be/x-rQ3RiI7I0"     
 - week: "3"
   date: "2"
   title: "Switching"  
+  readings:
+  - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
+    rlink: "https://youtu.be/X2cLpzFRMT4"     
 - week: "3"
   date: "3"
   title: "From Bits to Packets" 
   readings:
-  - rtitle: "Ch. 7"
+  - rtitle: "Dordal Ch. 7"
     rlink: false  
 - week: "4"
   date: "0"
@@ -228,20 +268,34 @@ schedule:
   date: "1"
   title: "Sliding Window Protocols"  
   readings:
-  - rtitle: "Ch. 8"
+  - rtitle: "Dordal Ch. 8"
     rlink: false    
 - week: "4"
   date: "2"
   title: "The Network Layer"  
   readings:
-  - rtitle: "Ch. 9"
-    rlink: false    
+  - rtitle: "Dordal Ch. 9"
+    rlink: false  
+  - rtitle: "Kurose and Ross: The Network Layer Control Plane"
+    rlink: "https://youtu.be/Aeb80Q_mJp4" 
+  - rtitle: "Kurose and Ross: The Network Layer Data Plane"
+    rlink: "https://youtu.be/olbr3WZwrdU"     
 - week: "5"
   date: "0"
-  title: "IPv4"  
+  title: "IPv4" 
+  readings:
+  - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
+    rlink: "https://youtu.be/sdIpLuIR1ZY"   
+  - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
+    rlink: "https://youtu.be/H9DivCEFuUg" 
 - week: "5"
   date: "1"
   title: "IPv4 Addressing and Subnets"  
+  readings:
+  - rtitle: "Kurose and Ross: Generalized Forwarding"
+    rlink: "https://youtu.be/HIPVDxTrHqI"       
+  - rtitle: "Kurose and Ross: Middleboxes"
+    rlink: "https://youtu.be/kKZlPeyef0k"        
 - week: "5"
   date: "2"
   title: "IP Multiplexing with NAT"  
@@ -249,8 +303,12 @@ schedule:
   date: "0"
   title: "Outside Address Lookups with DNS"  
   readings:
-  - rtitle: "Ch. 10"
+  - rtitle: "Dordal Ch. 10"
     rlink: false   
+  - rtitle: "Redbook Ch. 12"
+    rlink: false      
+  - rtitle: "Kurose and Ross: DNS"
+    rlink: "https://youtu.be/6lRcMh5Yphg"    
 - week: "6"
   date: "2"
   title: "Inside Address Lookups with ARP"  
@@ -259,12 +317,15 @@ schedule:
   title: "Dynamic Configuration with DHCP"  
 - week: "7"
   date: "1"
-  title: "ICMP and Ping"  
+  title: "ICMP and Ping" 
+  readings:
+  - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
+    rlink: "https://youtu.be/EHV0Q0R--Ns"      
 - week: "7"
   date: "2"
   title: "IPv6"  
   readings:
-  - rtitle: "Ch. 11"
+  - rtitle: "Dordal Ch. 11"
     rlink: false   
 - week: "8"
   date: "0"
@@ -273,32 +334,50 @@ schedule:
   date: "1"
   title: "Routing"  
   readings:
-  - rtitle: "Ch. 13"
-    rlink: false   
+  - rtitle: "Dordal Ch. 13"
+    rlink: false 
+  - rtitle: "Kurose and Ross: Routing Algorithms"
+    rlink: "https://youtu.be/bdh2kfgxVuw"    
+  - rtitle: "Kurose and Ross: What's Inside a Router? Part 1"
+    rlink: "https://youtu.be/NfHR94JAO-s"   
+  - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
+    rlink: "https://youtu.be/zfzzz9KQOog"     
 - week: "8"
   date: "2"
-  title: "Distance Vector Algorithms"  
+  title: "Distance Vector Algorithms"
+  readings:
+  - rtitle: "Kurose and Ross: Intra-AS Routing"
+    rlink: "https://youtu.be/iUQmn3nNjaI"   
 - week: "9"
   date: "0"
   title: "Hierarchical Routing"  
   readings:
-  - rtitle: "Ch. 14"
+  - rtitle: "Dordal Ch. 14"
     rlink: false   
 - week: "9"
   date: "1"
   title: "Routing at Scale: BGP"
   readings:
-  - rtitle: "Ch. 15"
+  - rtitle: "Dordal Ch. 15"
     rlink: false   
+  - rtitle: "Kurose and Ross: Routing Among the ISPs with BGP"
+    rlink: "https://youtu.be/2rV4tJkP-CQ"      
 - week: "9"
   date: "2"
   title: "The Transport Layer: Considerations"
   readings:
-  - rtitle: "Ch. 16"
+  - rtitle: "Dordal Ch. 16"
     rlink: false   
+  - rtitle: "Kurose and Ross: Introduction to Transport-Layer Services"
+    rlink: "https://youtu.be/lAvhH0XJLNE"      
+  - rtitle: "Kurose and Ross: Multiplexing"
+    rlink: "https://youtu.be/CekW6ipRrGA"        
 - week: "10"
   date: "0"
   title: "Basic Transport Services with UDP"
+  readings:
+  - rtitle: "Kurose and Ross: Connectionless Transport with UDP"
+    rlink: "https://youtu.be/VjBDgcNno-Q"    
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: ""  
@@ -309,26 +388,63 @@ schedule:
   date: "0"
   title: "Coordinating Transport Services with TCP"  
   readings:
-  - rtitle: "Ch. 17"
-    rlink: false   
+  - rtitle: "Dordal Ch. 17"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 1"
+    rlink: "https://youtu.be/nyUHUtmxWg0"      
+  - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 2"
+    rlink: "https://youtu.be/vxgH6r-II2Q"          
 - week: "11"
   date: "1"
-  title: "TCP"  
+  title: "TCP" 
+  - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 1"
+    rlink: "https://youtu.be/UYJP-6mhF6E"      
+  - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
+    rlink: "https://youtu.be/E4I6t0mI_is"        
 - week: "14"
   date: "0"
   title: "Congestion Management with TCP"  
   readings:
-  - rtitle: "Ch. 18"
-    rlink: false   
+  - rtitle: "Dordal Ch. 18"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Principles of Congestion Control"
+    rlink: "https://youtu.be/Fm92xvIp6JY"       
+  - rtitle: "Kurose and Ross: TCP Congestion Control"
+    rlink: "https://youtu.be/cIHiSR4j3g4"    
+  - rtitle: "Kurose and Ross: Evolution of Transport Layer Functionality"
+    rlink: "https://youtu.be/oRUIEmpzk0Y" 
+  - rtitle: "Kurose and Ross: Transport Layer Summary"
+    rlink: "https://youtu.be/XPPsub35eNY"      
 - week: "11"
   date: "2"
   title: "Application Layer Protocols: HTTP"  
+  readings:
+  - rtitle: "Redbook Ch. 16"
+    rlink: false
+  - rtitle: "Kurose and Ross: Principles of Network Applications"
+    rlink: "https://youtu.be/abeupgK5z48"  
+  - rtitle: "Kurose and Ross: The Web and HTTP Part 1"
+    rlink: "https://youtu.be/S9GEPaQ1lFs"   
+  - rtitle: "Kurose and Ross: The Web and HTTP Part 2"
+    rlink: "https://youtu.be/4M39gEPWPYs"     
 - week: "12"
   date: "0"
   title: "SMTP"    
+  readings:
+  - rtitle: "Redbook Ch. 15"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Email"
+    rlink: "https://youtu.be/D3GMrOMR2dk"
 - week: "12"
   date: "1"
-  title: "Socket Programming"    
+  title: "Socket Programming"   
+  readings:
+  - rtitle: "Redbook Ch. 11"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
+    rlink: "https://youtu.be/ak5bbb-xHLI" 
+  - rtitle: "Kurose and Ross: Socket Programming"
+    rlink: "https://youtu.be/_iHMMo7SDfQ"     
 - week: "12"
   date: "2"
   title: "Socket Programming"    
@@ -340,7 +456,10 @@ schedule:
   title: "Multithreaded Socket Programming"    
 - week: "13"
   date: "2"
-  title: "Security and Privacy"    
+  title: "Security and Privacy"
+  readings:
+  - rtitle: "Redbook Ch. 22"
+    rlink: false  
 - week: "14"
   date: "0"
   title: "Security and Privacy"    
