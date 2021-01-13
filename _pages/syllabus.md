@@ -190,6 +190,10 @@ schedule:
 - week: "0"
   date: "2"
   title: "Motivating Examples: nslookup, HTTP, Traceroute"
+  deliverables:
+  - dtitle: "Participation: Pre-Assessment Handed Out"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10     
   readings:
   - rtitle: "Dordal Ch. 1"
     rlink: false
@@ -225,6 +229,10 @@ schedule:
 - week: "1"
   date: "2"
   title: "The Physical Layer: Considerations"
+  deliverables:
+  - dtitle: "Participation: Pre-Assessment Due"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10    
   readings:
   - rtitle: "Dordal Ch. 2"
     rlink: false  
@@ -348,7 +356,11 @@ schedule:
     rlink: "https://youtu.be/6lRcMh5Yphg"    
 - week: "6"
   date: "2"
-  title: "Inside Address Lookups with ARP"    
+  title: "Inside Address Lookups with ARP" 
+  deliverables:
+  - dtitle: "Participation: First Self-Assessment Handed Out"
+    dlink: "./Assignments/Participation/SelfAssessment"
+    points: 10   
 - week: "7"
   date: "0"
   title: "Dynamic Configuration with DHCP"
@@ -366,6 +378,10 @@ schedule:
 - week: "7"
   date: "2"
   title: "IPv6"  
+  deliverables:
+    - dtitle: "Participation: First Self-Assessment Due"
+      dlink: "./Assignments/Participation/SelfAssessment"
+      points: 10   
   readings:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
@@ -515,6 +531,10 @@ schedule:
 - week: "13"
   date: "1"
   title: "Multithreaded Socket Programming"    
+  deliverables:
+    - dtitle: "Participation: Second Self-Assessment Handed Out"
+      dlink: "./Assignments/Participation/SelfAssessment"
+      points: 10     
 - week: "13"
   date: "2"
   title: "Security and Privacy"
@@ -531,7 +551,11 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
 - week: "14"
   date: "1"
-  title: "Security and Privacy"     
+  title: "Security and Privacy"   
+  deliverables:   
+    - dtitle: "Participation: Second Self-Assessment Due"
+      dlink: "./Assignments/Participation/SelfAssessment"
+      points: 10    
 - week: "15"
   date: "0"
   title: "Review"
