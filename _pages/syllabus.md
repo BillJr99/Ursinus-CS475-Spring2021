@@ -504,7 +504,7 @@ schedule:
   title: "SMTP"  
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: ""      
+    dlink: "Projects/Final"      
   readings:
   - rtitle: "Redbook Ch. 15"
     rlink: false  
@@ -561,7 +561,7 @@ schedule:
   title: "Review"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
-    dlink: ""
+    dlink: "Projects/Final"
   - dtitle: "Lab: SSL with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
   
