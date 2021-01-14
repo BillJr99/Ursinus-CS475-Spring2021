@@ -194,7 +194,10 @@ schedule:
   deliverables:
   - dtitle: "Participation: Pre-Assessment Handed Out"
     dlink: "./Assignments/Participation/PreAssessment"
-    points: 10     
+    points: 10   
+  - dtitle: "Programming Assignment: Warmup Handed Out"
+    dlink: "./Assignments/Warmup"
+    points: 10           
   readings:
   - rtitle: "Dordal Ch. 1"
     rlink: false
@@ -235,7 +238,10 @@ schedule:
   deliverables:
   - dtitle: "Participation: Pre-Assessment Due"
     dlink: "./Assignments/Participation/PreAssessment"
-    points: 10    
+    points: 10 
+  - dtitle: "Programming Assignment: Warmup Due"
+    dlink: "./Assignments/Warmup"
+    points: 10           
   readings:
   - rtitle: "Dordal Ch. 2"
     rlink: false  
