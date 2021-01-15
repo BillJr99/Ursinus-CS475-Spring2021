@@ -246,9 +246,6 @@ schedule:
   date: "0"
   title: "Ethernet"  
   deliverables:
-  - dtitle: "Lab: Wireshark Overview Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
-    points: 10
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
     points: 10
@@ -259,16 +256,20 @@ schedule:
   date: "1"
   title: "CSMA" 
   deliverables:
-  - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
-    dlink: "Assignments/RFC"
-    points: 100  
+  - dtitle: "Lab: Wireshark Overview Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
+    points: 10    
 - week: "2"
   date: "2"
   title: "Wi-Fi"
   link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx"  
   readings:
   - rtitle: "Dordal Ch. 4"
-    rlink: false   
+    rlink: false 
+  deliverables:
+  - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
+    dlink: "Assignments/RFC"
+    points: 100    
 - week: "3"
   date: "0"
   title: "VPN"  
@@ -317,11 +318,7 @@ schedule:
     points: 10
 - week: "4"
   date: "1"
-  title: "Sliding Window Protocols"  
-  deliverables:
-  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
-    dlink: "Assignments/RFC"
-    points: 100    
+  title: "Sliding Window Protocols"   
   readings:
   - rtitle: "Dordal Ch. 8"
     rlink: false    
@@ -329,6 +326,10 @@ schedule:
   date: "2"
   title: "The Network Layer"  
   link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"
+  deliverables:
+  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
+    dlink: "Assignments/RFC"
+    points: 100     
   readings:
   - rtitle: "Dordal Ch. 9"
     rlink: false  
