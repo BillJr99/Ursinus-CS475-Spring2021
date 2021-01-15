@@ -86,43 +86,43 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c03
 DTSTAMP:20210120T000000Z
 DTSTART;VALUE=DATE:20210120
-SUMMARY:CS475 Computer Networks: Class Meeting
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c04
-DTSTAMP:20210122T000000Z
-DTSTART;VALUE=DATE:20210122
 SUMMARY:CS475 Computer Networks: Programming Assignment: Warmup Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
+UID:00000000-0000-0000-0000-0451f2100c04
+DTSTAMP:20210120T000000Z
+DTSTART;VALUE=DATE:20210120
+SUMMARY:CS475 Computer Networks: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/../Ursinus-CS475-Overview\nDeliverable: Programming Assignment: Warmup Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c05
 DTSTAMP:20210122T000000Z
 DTSTART;VALUE=DATE:20210122
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Participation: Pre-Assessment Handed Out
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg\nDeliverable: Programming Assignment: Warmup Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c06
-DTSTAMP:20210125T000000Z
-DTSTART;VALUE=DATE:20210125
-SUMMARY:CS475 Computer Networks: Lab: Wireshark Overview Handed Out
+DTSTAMP:20210122T000000Z
+DTSTART;VALUE=DATE:20210122
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c07
 DTSTAMP:20210125T000000Z
 DTSTART;VALUE=DATE:20210125
-SUMMARY:CS475 Computer Networks: Participation: Pre-Assessment Handed Out
+SUMMARY:CS475 Computer Networks: Lab: Wireshark Overview Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -133,50 +133,50 @@ DTSTAMP:20210125T000000Z
 DTSTART;VALUE=DATE:20210125
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: The Network Edge https://youtu.be/k8NmM-hImBU\nReading: Kurose and Ross: The Network Core https://youtu.be/f1nUcCdQJ8Y\nReading: Kurose and Ross: Network Performance https://youtu.be/hm1y4LsphQQ\nDeliverable: Lab: Wireshark Overview Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
+DESCRIPTION:\nReading: Kurose and Ross: The Network Edge https://youtu.be/k8NmM-hImBU\nReading: Kurose and Ross: The Network Core https://youtu.be/f1nUcCdQJ8Y\nReading: Kurose and Ross: Network Performance https://youtu.be/hm1y4LsphQQ\nDeliverable: Lab: Wireshark Overview Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c09
 DTSTAMP:20210127T000000Z
 DTSTART;VALUE=DATE:20210127
-SUMMARY:CS475 Computer Networks: Class Meeting
-LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c0a
-DTSTAMP:20210129T000000Z
-DTSTART;VALUE=DATE:20210129
 SUMMARY:CS475 Computer Networks: Programming Assignment: Warmup Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
+UID:00000000-0000-0000-0000-0451f2100c0a
+DTSTAMP:20210127T000000Z
+DTSTART;VALUE=DATE:20210127
+SUMMARY:CS475 Computer Networks: Class Meeting
+LOCATION:
+DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c0b
 DTSTAMP:20210129T000000Z
 DTSTART;VALUE=DATE:20210129
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Participation: Pre-Assessment Due
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 2\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c0c
-DTSTAMP:20210201T000000Z
-DTSTART;VALUE=DATE:20210201
-SUMMARY:CS475 Computer Networks: Lab: HTTP with Wireshark Handed Out
+DTSTAMP:20210129T000000Z
+DTSTART;VALUE=DATE:20210129
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Dordal Ch. 2\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c0d
 DTSTAMP:20210201T000000Z
 DTSTART;VALUE=DATE:20210201
-SUMMARY:CS475 Computer Networks: Participation: Pre-Assessment Due
+SUMMARY:CS475 Computer Networks: Lab: HTTP with Wireshark Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -187,7 +187,7 @@ DTSTAMP:20210201T000000Z
 DTSTART;VALUE=DATE:20210201
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: HTTP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
+DESCRIPTION:\nDeliverable: Lab: HTTP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
