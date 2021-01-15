@@ -188,13 +188,18 @@ schedule:
 - week: "0"
   date: "1"
   title: "Course Overview"
-- week: "0"
-  date: "2"
-  title: "Motivating Examples: nslookup, HTTP, Traceroute"
+  link: "../Ursinus-CS475-Overview"
   deliverables:  
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "./Assignments/Warmup"
-    points: 10           
+    points: 10   
+- week: "0"
+  date: "2"
+  title: "Motivating Examples: nslookup, HTTP, Traceroute"
+  deliverables:
+  - dtitle: "Participation: Pre-Assessment Handed Out"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10   
   readings:
   - rtitle: "Dordal Ch. 1"
     rlink: false
@@ -210,10 +215,7 @@ schedule:
   deliverables:
   - dtitle: "Lab: Wireshark Overview Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
-    points: 10
-  - dtitle: "Participation: Pre-Assessment Handed Out"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10     
+    points: 10    
   readings:
   - rtitle: "Kurose and Ross: The Network Edge"
     rlink: "https://youtu.be/k8NmM-hImBU"  
@@ -225,6 +227,10 @@ schedule:
   date: "1"
   title: "Networking: A Layered Approach"
   link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx"
+  deliverables:
+  - dtitle: "Programming Assignment: Warmup Due"
+    dlink: "./Assignments/Warmup"
+    points: 10    
   readings:
   - rtitle: "Kurose and Ross: Protocol Layers"
     rlink: "https://youtu.be/IZ_PnVXtMeY"  
@@ -236,9 +242,9 @@ schedule:
   date: "2"
   title: "The Physical Layer: Considerations"
   deliverables:
-  - dtitle: "Programming Assignment: Warmup Due"
-    dlink: "./Assignments/Warmup"
-    points: 10           
+  - dtitle: "Participation: Pre-Assessment Due"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10   
   readings:
   - rtitle: "Dordal Ch. 2"
     rlink: false  
@@ -248,10 +254,7 @@ schedule:
   deliverables:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
-    points: 10
-  - dtitle: "Participation: Pre-Assessment Due"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10     
+    points: 10    
 - week: "2"
   date: "1"
   title: "CSMA" 
