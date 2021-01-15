@@ -191,10 +191,7 @@ schedule:
 - week: "0"
   date: "2"
   title: "Motivating Examples: nslookup, HTTP, Traceroute"
-  deliverables:
-  - dtitle: "Participation: Pre-Assessment Handed Out"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10   
+  deliverables:  
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "./Assignments/Warmup"
     points: 10           
@@ -214,6 +211,9 @@ schedule:
   - dtitle: "Lab: Wireshark Overview Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
     points: 10
+  - dtitle: "Participation: Pre-Assessment Handed Out"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10     
   readings:
   - rtitle: "Kurose and Ross: The Network Edge"
     rlink: "https://youtu.be/k8NmM-hImBU"  
@@ -236,9 +236,6 @@ schedule:
   date: "2"
   title: "The Physical Layer: Considerations"
   deliverables:
-  - dtitle: "Participation: Pre-Assessment Due"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10 
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
     points: 10           
@@ -255,6 +252,9 @@ schedule:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
     points: 10
+  - dtitle: "Participation: Pre-Assessment Due"
+    dlink: "./Assignments/Participation/PreAssessment"
+    points: 10     
 - week: "2"
   date: "1"
   title: "CSMA" 
