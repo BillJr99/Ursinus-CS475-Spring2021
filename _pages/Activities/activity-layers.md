@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/Layers
-title: "CS173: Intro to Computer Science - Layers"
-excerpt: "CS173: Intro to Computer Science - Layers"
+title: "CS475: Computer Networks - Layers"
+excerpt: "CS475: Computer Networks - Layers"
 
 info:
   goals: 

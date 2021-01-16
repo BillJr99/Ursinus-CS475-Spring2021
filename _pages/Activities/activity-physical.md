@@ -1,8 +1,8 @@
 ---
 layout: activity
-permalink: /Activities/Physical Layer
-title: "CS173: Intro to Computer Science - The Physical Layer"
-excerpt: "CS173: Intro to Computer Science - The Physical Layer"
+permalink: /Activities/PhysicalLayer
+title: "CS475: Computer Networks - The Physical Layer"
+excerpt: "CS475: Computer Networks - The Physical Layer"
 
 info:
   goals: 

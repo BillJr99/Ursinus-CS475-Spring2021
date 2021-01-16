@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/MotivatingExamples
-title: "CS173: Intro to Computer Science - Motivating Examples"
-excerpt: "CS173: Intro to Computer Science - Motivating Examples"
+title: "CS475: Computer Networks - Motivating Examples"
+excerpt: "CS475: Computer Networks - Motivating Examples"
 
 info:
   goals: 

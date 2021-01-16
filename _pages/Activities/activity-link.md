@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/LinkLayer
-title: "CS173: Intro to Computer Science - The Link Layer"
-excerpt: "CS173: Intro to Computer Science - The Link Layer"
+title: "CS475: Computer Networks - The Link Layer"
+excerpt: "CS475: Computer Networks - The Link Layer"
 
 info:
   goals: 

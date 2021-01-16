@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/Routing
-title: "CS173: Intro to Computer Science - Routing Protocols"
-excerpt: "CS173: Intro to Computer Science - Routing Protocols"
+title: "CS475: Computer Networks - Routing Protocols"
+excerpt: "CS475: Computer Networks - Routing Protocols"
 
 info:
   goals: 

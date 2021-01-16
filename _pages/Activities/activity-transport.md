@@ -1,8 +1,8 @@
 ---
 layout: activity
-permalink: /Activities/Transport Layer
-title: "CS173: Intro to Computer Science - The Transport Layer"
-excerpt: "CS173: Intro to Computer Science - The Transport Layer"
+permalink: /Activities/TransportLayer
+title: "CS475: Computer Networks - The Transport Layer"
+excerpt: "CS475: Computer Networks - The Transport Layer"
 
 info:
   goals: 

@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/ApplicationLayer
-title: "CS173: Intro to Computer Science - The Application Layer"
-excerpt: "CS173: Intro to Computer Science - The Application Layer"
+title: "CS475: Computer Networks - The Application Layer"
+excerpt: "CS475: Computer Networks - The Application Layer"
 
 info:
   goals: 

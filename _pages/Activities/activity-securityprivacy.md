@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/SecurityPrivacy
-title: "CS173: Intro to Computer Science - Security and Privacy"
-excerpt: "CS173: Intro to Computer Science - Security and Privacy"
+title: "CS475: Computer Networks - Security and Privacy"
+excerpt: "CS475: Computer Networks - Security and Privacy"
 
 info:
   goals: 

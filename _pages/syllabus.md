@@ -540,7 +540,7 @@ schedule:
     rlink: "https://youtu.be/XPPsub35eNY"      
 - week: "12"
   date: "0"
-  title: "Application Layer Protocols: HTTP"  
+  title: "Application Layer Protocols"  
   link: "./Activities/ApplicationLayer"
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Due"
@@ -560,7 +560,7 @@ schedule:
     rlink: "https://youtu.be/4M39gEPWPYs"     
 - week: "12"
   date: "1"
-  title: "SMTP"  
+  title: "HTTP and SMTP"  
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  
