@@ -115,7 +115,7 @@ DTSTAMP:20210122T000000Z
 DTSTART;VALUE=DATE:20210122
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/MotivatingExamples\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -151,7 +151,7 @@ DTSTAMP:20210127T000000Z
 DTSTART;VALUE=DATE:20210127
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/Layers\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Warmup
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -169,7 +169,7 @@ DTSTAMP:20210129T000000Z
 DTSTART;VALUE=DATE:20210129
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 2\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/PhysicalLayer\nReading: Dordal Ch. 2\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -223,7 +223,7 @@ DTSTAMP:20210205T000000Z
 DTSTART;VALUE=DATE:20210205
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx\nReading: Dordal Ch. 4\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
+DESCRIPTION:\nReading: Dordal Ch. 4\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -250,7 +250,7 @@ DTSTAMP:20210208T000000Z
 DTSTART;VALUE=DATE:20210208
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 5\nDeliverable: Lab: HTTP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Lab: Ethernet with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/LinkLayer\nReading: Dordal Ch. 5\nDeliverable: Lab: HTTP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Lab: Ethernet with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -259,7 +259,7 @@ DTSTAMP:20210210T000000Z
 DTSTART;VALUE=DATE:20210210
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
+DESCRIPTION:\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -304,7 +304,7 @@ DTSTAMP:20210215T000000Z
 DTSTART;VALUE=DATE:20210215
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Ethernet with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf\nDeliverable: Lab: Wi-Fi with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/NetworkLayer\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU\nDeliverable: Lab: Ethernet with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf\nDeliverable: Lab: Wi-Fi with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -313,7 +313,7 @@ DTSTAMP:20210217T000000Z
 DTSTART;VALUE=DATE:20210217
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 8
+DESCRIPTION:\nReading: Kurose and Ross: The Internet Protocol Part 1 https://youtu.be/sdIpLuIR1ZY\nReading: Kurose and Ross: The Internet Protocol Part 2 https://youtu.be/H9DivCEFuUg
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -331,7 +331,7 @@ DTSTAMP:20210219T000000Z
 DTSTART;VALUE=DATE:20210219
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU\nDeliverable: Programming Assignment: Introduction to the RFC Due https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
+DESCRIPTION:\nReading: Kurose and Ross: Generalized Forwarding https://youtu.be/HIPVDxTrHqI\nReading: Kurose and Ross: Middleboxes https://youtu.be/kKZlPeyef0k\nDeliverable: Programming Assignment: Introduction to the RFC Due https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -358,7 +358,7 @@ DTSTAMP:20210222T000000Z
 DTSTART;VALUE=DATE:20210222
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: The Internet Protocol Part 1 https://youtu.be/sdIpLuIR1ZY\nReading: Kurose and Ross: The Internet Protocol Part 2 https://youtu.be/H9DivCEFuUg\nDeliverable: Lab: Wi-Fi with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf\nDeliverable: Lab: IP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf
+DESCRIPTION:\nDeliverable: Lab: Wi-Fi with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf\nDeliverable: Lab: IP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -376,88 +376,88 @@ DTSTAMP:20210224T000000Z
 DTSTART;VALUE=DATE:20210224
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Generalized Forwarding https://youtu.be/HIPVDxTrHqI\nReading: Kurose and Ross: Middleboxes https://youtu.be/kKZlPeyef0k\nDeliverable: Midterm Exam: Midterm Handed Out
+DESCRIPTION:\nDeliverable: Midterm Exam: Midterm Handed Out
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c24
 DTSTAMP:20210226T000000Z
 DTSTART;VALUE=DATE:20210226
-SUMMARY:CS475 Computer Networks: Class Meeting
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c25
-DTSTAMP:20210301T000000Z
-DTSTART;VALUE=DATE:20210301
 SUMMARY:CS475 Computer Networks: Lab: IP with Wireshark Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c26
-DTSTAMP:20210301T000000Z
-DTSTART;VALUE=DATE:20210301
+UID:00000000-0000-0000-0000-0451f2100c25
+DTSTAMP:20210226T000000Z
+DTSTART;VALUE=DATE:20210226
 SUMMARY:CS475 Computer Networks: Midterm Exam: Midterm Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c27
-DTSTAMP:20210301T000000Z
-DTSTART;VALUE=DATE:20210301
+UID:00000000-0000-0000-0000-0451f2100c26
+DTSTAMP:20210226T000000Z
+DTSTART;VALUE=DATE:20210226
 SUMMARY:CS475 Computer Networks: Lab: NAT with Wireshark Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c28
-DTSTAMP:20210301T000000Z
-DTSTART;VALUE=DATE:20210301
+UID:00000000-0000-0000-0000-0451f2100c27
+DTSTAMP:20210226T000000Z
+DTSTART;VALUE=DATE:20210226
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
 DESCRIPTION:\nReading: Dordal Ch. 10\nReading: Redbook Ch. 12\nReading: Kurose and Ross: DNS https://youtu.be/6lRcMh5Yphg\nDeliverable: Lab: IP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf\nDeliverable: Midterm Exam: Midterm Due\nDeliverable: Lab: NAT with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c29
-DTSTAMP:20210305T000000Z
-DTSTART;VALUE=DATE:20210305
+UID:00000000-0000-0000-0000-0451f2100c28
+DTSTAMP:20210301T000000Z
+DTSTART;VALUE=DATE:20210301
 SUMMARY:CS475 Computer Networks: Participation: First Self-Assessment Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c2a
-DTSTAMP:20210305T000000Z
-DTSTART;VALUE=DATE:20210305
+UID:00000000-0000-0000-0000-0451f2100c29
+DTSTAMP:20210301T000000Z
+DTSTART;VALUE=DATE:20210301
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
 DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c2b
-DTSTAMP:20210308T000000Z
-DTSTART;VALUE=DATE:20210308
+UID:00000000-0000-0000-0000-0451f2100c2a
+DTSTAMP:20210305T000000Z
+DTSTART;VALUE=DATE:20210305
 SUMMARY:CS475 Computer Networks: Lab: NAT with Wireshark Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c2c
-DTSTAMP:20210308T000000Z
-DTSTART;VALUE=DATE:20210308
+UID:00000000-0000-0000-0000-0451f2100c2b
+DTSTAMP:20210305T000000Z
+DTSTART;VALUE=DATE:20210305
 SUMMARY:CS475 Computer Networks: Lab: DHCP with Wireshark Handed Out
 LOCATION:
 DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-0451f2100c2c
+DTSTAMP:20210305T000000Z
+DTSTART;VALUE=DATE:20210305
+SUMMARY:CS475 Computer Networks: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Lab: NAT with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf\nDeliverable: Lab: DHCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -466,52 +466,52 @@ DTSTAMP:20210308T000000Z
 DTSTART;VALUE=DATE:20210308
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: NAT with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf\nDeliverable: Lab: DHCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf
+DESCRIPTION:\nReading: Kurose and Ross: The Internet Control Message Protocol (ICMP) https://youtu.be/EHV0Q0R--Ns
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c2e
 DTSTAMP:20210310T000000Z
 DTSTART;VALUE=DATE:20210310
-SUMMARY:CS475 Computer Networks: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: The Internet Control Message Protocol (ICMP) https://youtu.be/EHV0Q0R--Ns
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c2f
-DTSTAMP:20210312T000000Z
-DTSTART;VALUE=DATE:20210312
 SUMMARY:CS475 Computer Networks: Participation: First Self-Assessment Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c30
-DTSTAMP:20210312T000000Z
-DTSTART;VALUE=DATE:20210312
+UID:00000000-0000-0000-0000-0451f2100c2f
+DTSTAMP:20210310T000000Z
+DTSTART;VALUE=DATE:20210310
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
 DESCRIPTION:\nReading: Dordal Ch. 11\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS475-Spring2021/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c31
-DTSTAMP:20210315T000000Z
-DTSTART;VALUE=DATE:20210315
+UID:00000000-0000-0000-0000-0451f2100c30
+DTSTAMP:20210312T000000Z
+DTSTART;VALUE=DATE:20210312
 SUMMARY:CS475 Computer Networks: Lab: DHCP with Wireshark Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-0451f2100c32
-DTSTAMP:20210315T000000Z
-DTSTART;VALUE=DATE:20210315
+UID:00000000-0000-0000-0000-0451f2100c31
+DTSTAMP:20210312T000000Z
+DTSTART;VALUE=DATE:20210312
 SUMMARY:CS475 Computer Networks: Lab: ICMP with Wireshark Handed Out
 LOCATION:
 DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-0451f2100c32
+DTSTAMP:20210312T000000Z
+DTSTART;VALUE=DATE:20210312
+SUMMARY:CS475 Computer Networks: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Lab: DHCP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf\nDeliverable: Lab: ICMP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -520,7 +520,7 @@ DTSTAMP:20210315T000000Z
 DTSTART;VALUE=DATE:20210315
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: DHCP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf\nDeliverable: Lab: ICMP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/Routing\nReading: Dordal Ch. 13\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -529,25 +529,25 @@ DTSTAMP:20210317T000000Z
 DTSTART;VALUE=DATE:20210317
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_5_v8.0.pptx\nReading: Dordal Ch. 13\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
+DESCRIPTION:\nReading: Kurose and Ross: Intra-AS Routing https://youtu.be/iUQmn3nNjaI
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c35
 DTSTAMP:20210319T000000Z
 DTSTART;VALUE=DATE:20210319
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Lab: ICMP with Wireshark Due
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Intra-AS Routing https://youtu.be/iUQmn3nNjaI
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c36
-DTSTAMP:20210322T000000Z
-DTSTART;VALUE=DATE:20210322
-SUMMARY:CS475 Computer Networks: Lab: ICMP with Wireshark Due
+DTSTAMP:20210319T000000Z
+DTSTART;VALUE=DATE:20210319
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Dordal Ch. 14\nDeliverable: Lab: ICMP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -556,25 +556,25 @@ DTSTAMP:20210322T000000Z
 DTSTART;VALUE=DATE:20210322
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 14\nDeliverable: Lab: ICMP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
+DESCRIPTION:\nReading: Dordal Ch. 15\nReading: Kurose and Ross: Routing Among the ISPs with BGP https://youtu.be/2rV4tJkP-CQ
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c38
 DTSTAMP:20210324T000000Z
 DTSTART;VALUE=DATE:20210324
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Programming Assignment: HTTP Client Handed Out
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 15\nReading: Kurose and Ross: Routing Among the ISPs with BGP https://youtu.be/2rV4tJkP-CQ
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c39
-DTSTAMP:20210326T000000Z
-DTSTART;VALUE=DATE:20210326
-SUMMARY:CS475 Computer Networks: Programming Assignment: HTTP Client Handed Out
+DTSTAMP:20210324T000000Z
+DTSTART;VALUE=DATE:20210324
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/TransportLayer\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA\nDeliverable: Programming Assignment: HTTP Client Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/HTTPClient
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -583,7 +583,7 @@ DTSTAMP:20210326T000000Z
 DTSTART;VALUE=DATE:20210326
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_3_v8.0.pptx\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA\nDeliverable: Programming Assignment: HTTP Client Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/HTTPClient
+DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -592,25 +592,25 @@ DTSTAMP:20210329T000000Z
 DTSTART;VALUE=DATE:20210329
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c3c
 DTSTAMP:20210402T000000Z
 DTSTART;VALUE=DATE:20210402
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Lab: UDP with Wireshark Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c3d
-DTSTAMP:20210405T000000Z
-DTSTART;VALUE=DATE:20210405
-SUMMARY:CS475 Computer Networks: Lab: UDP with Wireshark Handed Out
+DTSTAMP:20210402T000000Z
+DTSTART;VALUE=DATE:20210402
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Dordal Ch. 17\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 1 https://youtu.be/nyUHUtmxWg0\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 2 https://youtu.be/vxgH6r-II2Q\nDeliverable: Lab: UDP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -619,7 +619,7 @@ DTSTAMP:20210405T000000Z
 DTSTART;VALUE=DATE:20210405
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 17\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 1 https://youtu.be/nyUHUtmxWg0\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 2 https://youtu.be/vxgH6r-II2Q\nDeliverable: Lab: UDP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf
+DESCRIPTION:\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 1 https://youtu.be/UYJP-6mhF6E\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 2 https://youtu.be/E4I6t0mI_is
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -628,7 +628,7 @@ DTSTAMP:20210407T000000Z
 DTSTART;VALUE=DATE:20210407
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 1 https://youtu.be/UYJP-6mhF6E\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 2 https://youtu.be/E4I6t0mI_is
+DESCRIPTION:\nReading: Dordal Ch. 8
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -682,7 +682,7 @@ DTSTAMP:20210412T000000Z
 DTSTART;VALUE=DATE:20210412
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_2_v8.1.pptx\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Lab: UDP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf\nDeliverable: Lab: TCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/ApplicationLayer\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Lab: UDP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf\nDeliverable: Lab: TCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -781,7 +781,7 @@ DTSTAMP:20210423T000000Z
 DTSTART;VALUE=DATE:20210423
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx\nReading: Redbook Ch. 22
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021/./Activities/SecurityPrivacy\nReading: Redbook Ch. 22
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
