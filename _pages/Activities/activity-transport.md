@@ -10,7 +10,7 @@ info:
     - "To describe protocols for various levels of quality-of-service including UDP and TCP"
     - To explain how congestion managemnt is handled in a distributed and passive manner using TCP
     - "To differentiate between quality-of-service levels with different Transport Layer protocols"
-    - To define a sliding window protocol using TCP for efficient and in-order buffered communications
+    - "To define a sliding window protocol using TCP for efficient and in-order buffered communications"
 
   models:
     - model: |
