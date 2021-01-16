@@ -196,6 +196,7 @@ schedule:
 - week: "0"
   date: "2"
   title: "Motivating Examples: nslookup, HTTP, Traceroute"
+  link: "./Activities/MotivatingExamples"
   deliverables:
   - dtitle: "Participation: Pre-Assessment Handed Out"
     dlink: "./Assignments/Participation/PreAssessment"
@@ -226,7 +227,7 @@ schedule:
 - week: "1"
   date: "1"
   title: "Networking: A Layered Approach"
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_1_v8.1.pptx"
+  link: "./Activities/Layers"
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
@@ -241,6 +242,7 @@ schedule:
 - week: "1"
   date: "2"
   title: "The Physical Layer: Considerations"
+  link: "./Activities/PhysicalLayer"
   deliverables:
   - dtitle: "Participation: Pre-Assessment Due"
     dlink: "./Assignments/Participation/PreAssessment"
@@ -264,8 +266,7 @@ schedule:
     points: 10    
 - week: "2"
   date: "2"
-  title: "Wi-Fi"
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx"  
+  title: "Wi-Fi"  
   readings:
   - rtitle: "Dordal Ch. 4"
     rlink: false 
@@ -275,7 +276,8 @@ schedule:
     points: 100    
 - week: "3"
   date: "0"
-  title: "VPN"  
+  title: "The Link Layer" 
+  link: "./Activities/LinkLayer"  
   deliverables: 
   - dtitle: "Lab: HTTP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
@@ -288,8 +290,7 @@ schedule:
     rlink: false   
 - week: "3"
   date: "1"
-  title: "The Link Layer" 
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx"  
+  title: "Switching" 
   readings:
   - rtitle: "Dordal Ch. 6"
     rlink: false  
@@ -299,7 +300,7 @@ schedule:
     rlink: "https://youtu.be/x-rQ3RiI7I0"     
 - week: "3"
   date: "2"
-  title: "Switching"  
+  title: "From Bits to Packets"  
   readings:
   - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
     rlink: "https://youtu.be/X2cLpzFRMT4"     
@@ -311,7 +312,13 @@ schedule:
     rlink: false  
 - week: "4"
   date: "0"
-  title: "From Bits to Packets"  
+  title: "The Network Layer"  
+  link: "./Activities/NetworkLayer"
+  readings:
+  - rtitle: "Dordal Ch. 9"
+    rlink: false  
+  - rtitle: "Kurose and Ross: The Network Layer Data Plane"
+    rlink: "https://youtu.be/olbr3WZwrdU"     
   deliverables:
   - dtitle: "Lab: Ethernet with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
@@ -321,40 +328,14 @@ schedule:
     points: 10
 - week: "4"
   date: "1"
-  title: "Sliding Window Protocols"   
-  readings:
-  - rtitle: "Dordal Ch. 8"
-    rlink: false    
-- week: "4"
-  date: "2"
-  title: "The Network Layer"  
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"
-  deliverables:
-  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
-    dlink: "Assignments/RFC"
-    points: 100     
-  readings:
-  - rtitle: "Dordal Ch. 9"
-    rlink: false  
-  - rtitle: "Kurose and Ross: The Network Layer Data Plane"
-    rlink: "https://youtu.be/olbr3WZwrdU"     
-- week: "5"
-  date: "0"
-  title: "IPv4" 
-  deliverables:
-  - dtitle: "Lab: Wi-Fi with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
-    points: 10
-  - dtitle: "Lab: IP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
-    points: 10
+  title: "IPv4"
   readings:
   - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
-    rlink: "https://youtu.be/H9DivCEFuUg" 
-- week: "5"
-  date: "1"
+    rlink: "https://youtu.be/H9DivCEFuUg"   
+- week: "4"
+  date: "2"
   title: "IPv4 Addressing and Subnets"  
   readings:
   - rtitle: "Kurose and Ross: Generalized Forwarding"
@@ -362,14 +343,28 @@ schedule:
   - rtitle: "Kurose and Ross: Middleboxes"
     rlink: "https://youtu.be/kKZlPeyef0k" 
   deliverables:
+  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
+    dlink: "Assignments/RFC"
+    points: 100     
+- week: "5"
+  date: "0"
+  title: "IP Multiplexing with NAT" 
+  deliverables:
+  - dtitle: "Lab: Wi-Fi with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
+    points: 10
+  - dtitle: "Lab: IP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
+    points: 10
+- week: "5"
+  date: "1"
+  title: "VPN"  
+  deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
-    points: 100    
+    points: 100     
 - week: "5"
   date: "2"
-  title: "IP Multiplexing with NAT"  
-- week: "6"
-  date: "0"
   title: "Outside Address Lookups with DNS" 
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
@@ -389,14 +384,14 @@ schedule:
   - rtitle: "Kurose and Ross: DNS"
     rlink: "https://youtu.be/6lRcMh5Yphg"    
 - week: "6"
-  date: "2"
+  date: "0"
   title: "Inside Address Lookups with ARP" 
   deliverables:
   - dtitle: "Participation: First Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
     points: 10   
-- week: "7"
-  date: "0"
+- week: "6"
+  date: "2"
   title: "Dynamic Configuration with DHCP"
   deliverables:
   - dtitle: "Lab: NAT with Wireshark Due"
@@ -406,13 +401,13 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
     points: 10
 - week: "7"
-  date: "1"
+  date: "0"
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
     rlink: "https://youtu.be/EHV0Q0R--Ns"    
 - week: "7"
-  date: "2"
+  date: "1"
   title: "IPv6"  
   deliverables:
     - dtitle: "Participation: First Self-Assessment Due"
@@ -421,8 +416,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
-- week: "8"
-  date: "0"
+- week: "7"
+  date: "2"
   title: "Tunneling" 
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
@@ -432,9 +427,9 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
     points: 10
 - week: "8"
-  date: "1"
+  date: "0"
   title: "Routing" 
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_5_v8.0.pptx"  
+  link: "./Activities/Routing"
   readings:
   - rtitle: "Dordal Ch. 13"
     rlink: false 
@@ -447,13 +442,13 @@ schedule:
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
     rlink: "https://youtu.be/zfzzz9KQOog"     
 - week: "8"
-  date: "2"
+  date: "1"
   title: "Distance Vector Algorithms"
   readings:
   - rtitle: "Kurose and Ross: Intra-AS Routing"
     rlink: "https://youtu.be/iUQmn3nNjaI"   
-- week: "9"
-  date: "0"
+- week: "8"
+  date: "2"
   title: "Hierarchical Routing"  
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
@@ -463,7 +458,7 @@ schedule:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
 - week: "9"
-  date: "1"
+  date: "0"
   title: "Routing at Scale: BGP"
   readings:
   - rtitle: "Dordal Ch. 15"
@@ -471,9 +466,9 @@ schedule:
   - rtitle: "Kurose and Ross: Routing Among the ISPs with BGP"
     rlink: "https://youtu.be/2rV4tJkP-CQ"      
 - week: "9"
-  date: "2"
+  date: "1"
   title: "The Transport Layer: Considerations"
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_3_v8.0.pptx"
+  link: "./Activities/TransportLayer"
   deliverables: 
   - dtitle: "Programming Assignment: HTTP Client Handed Out"
     dlink: "Assignments/HTTPClient"
@@ -485,17 +480,17 @@ schedule:
     rlink: "https://youtu.be/lAvhH0XJLNE"      
   - rtitle: "Kurose and Ross: Multiplexing"
     rlink: "https://youtu.be/CekW6ipRrGA"        
-- week: "10"
-  date: "0"
+- week: "9"
+  date: "2"
   title: "Basic Transport Services with UDP"
   readings:
   - rtitle: "Kurose and Ross: Connectionless Transport with UDP"
     rlink: "https://youtu.be/VjBDgcNno-Q"    
 - week: "10"
-  date: "2"
-  title: "UDP"  
-- week: "11"
   date: "0"
+  title: "UDP"  
+- week: "10"
+  date: "2"
   title: "Coordinating Transport Services with TCP" 
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Handed Out"
@@ -509,13 +504,19 @@ schedule:
   - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 2"
     rlink: "https://youtu.be/vxgH6r-II2Q"          
 - week: "11"
-  date: "1"
+  date: "0"
   title: "TCP" 
   readings:
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 1"
     rlink: "https://youtu.be/UYJP-6mhF6E"      
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
-    rlink: "https://youtu.be/E4I6t0mI_is"        
+    rlink: "https://youtu.be/E4I6t0mI_is"  
+- week: "11"
+  date: "1"
+  title: "TCP Sliding Window Protocols"  
+  readings:
+  - rtitle: "Dordal Ch. 8"
+    rlink: false 
 - week: "11"
   date: "2"
   title: "Congestion Management with TCP"  
@@ -540,7 +541,7 @@ schedule:
 - week: "12"
   date: "0"
   title: "Application Layer Protocols: HTTP"  
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_2_v8.1.pptx"
+  link: "./Activities/ApplicationLayer"
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
@@ -605,7 +606,7 @@ schedule:
 - week: "13"
   date: "2"
   title: "Security and Privacy"
-  link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx"    
+  link: "./Activities/SecurityPrivacy"    
   readings:
   - rtitle: "Redbook Ch. 22"
     rlink: false  
