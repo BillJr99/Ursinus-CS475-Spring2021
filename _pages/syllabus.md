@@ -370,9 +370,6 @@ schedule:
   - dtitle: "Lab: IP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
     points: 10
-  - dtitle: "Midterm Exam: Midterm Due"
-    dlink: false
-    points: 100
   - dtitle: "Lab: NAT with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"      
     points: 10
@@ -389,7 +386,10 @@ schedule:
   deliverables:
   - dtitle: "Participation: First Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
-    points: 10   
+    points: 10 
+  - dtitle: "Midterm Exam: Midterm Due"
+    dlink: false
+    points: 100    
 - week: "6"
   date: "2"
   title: "Dynamic Configuration with DHCP"
