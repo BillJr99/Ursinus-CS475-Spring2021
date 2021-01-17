@@ -51,7 +51,10 @@ In this project, you will propose a topic of your choosing and a group of at lea
 
 You may use git or another version control system to coordinate between your team.  **Each student shall contribute by checking in meaningful contributions to the project on the version control system.  If a version control system is not used, code sections should be commented with the initials or recognized pseudonym of the student.**
 
-You may design, document, implement a protocol of your choosing, including the message units and the protocol workflow.  Your implementation will have at least two peers (for example, a client and a server) that interact with one another.  Your project should support multiple simultaneous connections via threaded socket programming.
+You may design, document, implement a protocol of your choosing, including the message units and the protocol workflow.  Your implementation will have at least two peers (for example, a client and a server) that interact with one another.  Your project should support multiple simultaneous connections via threaded socket programming.  Some possible projects might include:
+
+* A secure chat program that allows users to chat with the entire group, or to a specific destination
+* A game played by multiple people, such as a card or board game
 
 Finally, prepare as a team a project presentation that you will present live to the class for final presentations.  **Each student must have a speaking role** at the presentation.
 
