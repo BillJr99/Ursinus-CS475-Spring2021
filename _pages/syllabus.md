@@ -195,8 +195,7 @@ schedule:
     points: 10   
 - week: "0"
   date: "2"
-  title: "Motivating Examples: nslookup, HTTP, Traceroute"
-  link: "./Activities/MotivatingExamples"
+  title: "Sending Packets"  
   deliverables:
   - dtitle: "Participation: Pre-Assessment Handed Out"
     dlink: "./Assignments/Participation/PreAssessment"
@@ -206,24 +205,25 @@ schedule:
     rlink: false
   - rtitle: "Kurose and Ross: What is the Internet?"
     rlink: "https://youtu.be/74sEFYBBRAY"
-  - rtitle: "Jim Kurose: Wireshark Demo"
-    rlink: "https://www.youtube.com/watch?v=PYoXowOCppc"
-  - rtitle: "Jim Kurose: Traceroute Demo"
-    rlink: "https://www.youtube.com/watch?v=wEWiYLb7pxg"
-- week: "1"
-  date: "0"
-  title: "Sending Packets"
-  deliverables:
-  - dtitle: "Lab: Wireshark Overview Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
-    points: 10    
-  readings:
   - rtitle: "Kurose and Ross: The Network Edge"
     rlink: "https://youtu.be/k8NmM-hImBU"  
   - rtitle: "Kurose and Ross: The Network Core"
     rlink: "https://youtu.be/f1nUcCdQJ8Y" 
   - rtitle: "Kurose and Ross: Network Performance"
     rlink: "https://youtu.be/hm1y4LsphQQ"     
+- week: "1"
+  date: "0"
+  title: "Motivating Examples: nslookup, HTTP, Traceroute"
+  link: "./Activities/MotivatingExamples"  
+  deliverables:
+  - dtitle: "Lab: Wireshark Overview Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
+    points: 10    
+  readings:
+  - rtitle: "Jim Kurose: Wireshark Demo"
+    rlink: "https://www.youtube.com/watch?v=PYoXowOCppc"
+  - rtitle: "Jim Kurose: Traceroute Demo"
+    rlink: "https://www.youtube.com/watch?v=wEWiYLb7pxg"  
 - week: "1"
   date: "1"
   title: "Networking: A Layered Approach"
