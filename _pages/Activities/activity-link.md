@@ -11,13 +11,6 @@ info:
     - To differentiate between a hub and a switch
     - To define a packet including its boundaries and standardizing features
     - To explain the use of a sliding window protocol for efficient in-order transmission
-    
-  models:
-    - model: |
-        xxx
-      title: xxx
-      questions:
-        - xxx
         
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx"  

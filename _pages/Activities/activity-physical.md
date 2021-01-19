@@ -13,13 +13,6 @@ info:
     - To explain CSMA and CDMA and their use on the Internet
     - To explain the unique challenges of wireless technologies including 802.11 as a physical layer with respect to collisions and hidden peers
 
-  models:
-    - model: |
-        xxx
-      title: xxx
-      questions:
-        - xxx
-
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_7_v8.0.pptx"
       title: Kurose Notes

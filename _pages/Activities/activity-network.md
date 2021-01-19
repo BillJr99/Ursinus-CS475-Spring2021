@@ -13,13 +13,6 @@ info:
     - To define subnets of arbitrary size using CIDR subnetting and class A/B/C subnets
     - To differentiate between a switch and a router
     - To explain the functionality of a VPN over existing network infrastructure
-    
-  models:
-    - model: |
-        xxx
-      title: xxx
-      questions:
-        - xxx
         
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_4_v8.0.pptx"

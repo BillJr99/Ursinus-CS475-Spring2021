@@ -8,13 +8,6 @@ info:
   goals: 
     - To explore network tools and protocols including nslookup, HTTP, and traceroute
     - To motivate the need for loosely interconnected networking protocols to provide different but compatible levels of service
-
-  models:
-    - model: |
-        xxx
-      title: xxx
-      questions:
-        - xxx
           
 tags:
   - examples
