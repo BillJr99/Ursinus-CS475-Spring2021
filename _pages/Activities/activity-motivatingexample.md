@@ -33,6 +33,7 @@ info:
         - "What text is contained in the HTTP request?"
         - "What kind of data formatting do you see in the request?  Do you see this format replicated in the response, and if so, what kinds of information are returned aside from the webpage itself?"
         - "What would happen if an image or other media was encountered in the HTTP response?"
+        - "The command I used to connect to the web server was <code>telnet www.google.com 80</code>.  Similarly, you typically enter <code>http://www.google.com</code> into a web browser.  Why was it unnecessary to run a DNS lookup and enter the IP address here instead?" 
 
 tags:
   - examples
