@@ -94,6 +94,7 @@ info:
         - "How do you think the OSI Layers map to the TCP/IP architecture?"
         - "What does TCP stand for?"
         - "Is TCP present in this architecture?  What is there in its place in this implementation, and what are some differences between it and TCP?"
+        - "What kinds of services might be helpful at each layer to communicate a sentence from one side of the classroom to someone on the other side of the classroom?"
         
 tags:
   - layers
