@@ -7,6 +7,7 @@ excerpt: "CS475: Computer Networks - The Link Layer"
 info:
   goals: 
     - To explain the role and responsibility of the Link Layer
+    - To demarcate a protocol data unit using bit flags
     - To use an ARP table to track mac addresses on a switch
     - To differentiate between a hub and a switch
     - To define a packet including its boundaries and standardizing features
