@@ -31,8 +31,6 @@ info:
       
 tags:
   - http
-  
----
 
 ---
 

@@ -411,7 +411,10 @@ schedule:
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
-    rlink: "https://youtu.be/EHV0Q0R--Ns"    
+    rlink: "https://youtu.be/EHV0Q0R--Ns"  
+  deliverables:
+  - dtitle: "Programming Assignment: Traceroute Handed Out"
+    dlink: "./Assignments/Traceroute"  
 - week: "7"
   date: "1"
   title: "IPv6"  
@@ -470,7 +473,10 @@ schedule:
   - rtitle: "Dordal Ch. 15"
     rlink: false   
   - rtitle: "Kurose and Ross: Routing Among the ISPs with BGP"
-    rlink: "https://youtu.be/2rV4tJkP-CQ"      
+    rlink: "https://youtu.be/2rV4tJkP-CQ"   
+  deliverables:
+  - dtitle: "Programming Assignment: Traceroute Due"
+    dlink: "./Assignments/Traceroute"      
 - week: "9"
   date: "1"
   title: "The Transport Layer: Considerations"
