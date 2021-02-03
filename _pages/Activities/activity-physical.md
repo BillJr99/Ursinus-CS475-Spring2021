@@ -30,6 +30,7 @@ info:
         - "How do we know if a message is destined for us as opposed to someone else?  What information would we need, and at what layer would we find it?"
         - "At what point would you determine that your message was corrupted due to a collision?  What would you do about it?"
         - "Hubs are essentially repeater devices that echo the data from one sender to all ports on the hub.  Why is this inefficient, and what could we do about it?"
+        - "Hubs even echo a packet back to the sender: why is this useful for collision detection purposes?  Draw a diagram showing that a collision can occur even if two senders begin transmission on a clear line."
     - model: |
         <a title="helix84, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pure_ALOHA.svg"><img width="512" alt="Pure ALOHA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pure_ALOHA.svg/512px-Pure_ALOHA.svg.png"></a>
         <br>
@@ -45,7 +46,16 @@ info:
       title: "Communicating a bit via the Ethernet Standard IEEE 802.3"
       questions: 
         - "In your own words, how is a 0 or a 1 represented by 802.3 Manchester Encoding?"
-        - "Look at a vew values of the 802.3 Manchester encoding, the data, and the clock.  Write down a few sample values at a few snapshots in time.  What binary expression might relate the data and clock to the Manchester encoding?"
+        - "Look at a vew values of the 802.3 Manchester encoding, the data, and the clock.  Write down a few sample values at a few snapshots in time.  What binary expression might relate the data and clock to the Manchester encoding?"       
+    - model: |
+        <div align="left">
+        The probability of <code>x</code> nodes transmitting a frame at the beginning of a Slotted ALOHA frame, when assuming that, on average, nodes transmit with probability <code>G</code>, is defined by a Poisson Distribution (an asymptotic extension of the Binomial Distribution): <span>\(P(x) = \frac{G^{x} e^{-G}}{x!}\)</span>.  
+        </div>
+      title: "ALOHA Transmission Efficiency"
+      questions: 
+        - "What is <code>P(1)</code>, the probability that exactly one node will transmit in a frame using Slotted ALOHA?"
+        - "In unslotted ALOHA, we must assume that only one node transmits during a specific frame, and also that no node transmits during the prior frame, to avoid a collision.  These are independent events, so the unslotted probability is <code>P(1) P(0)</code>.  What is this, and how does it relate to the Slotted ALOHA probability of successful transmission?"
+        - "Take the derivative of the probability function for slotted ALOHA and for unslotted ALOHA, and set it equal to 0 to maximize the function.  At what value of <code>G</code> is each maximized?  Plug in this value and set <code>x</code> equal to 1 to observe the maximum transmission efficiency."
     - model: |
         <style type="text/css">
         .tg  {border-collapse:collapse;border-spacing:0;}
@@ -83,7 +93,7 @@ info:
         <small>Adapted from <a href="https://en.wikipedia.org/wiki/Carrier-sense_multiple_access#Access_modes">Wikipedia</a>
         <br>
         <a title="Runtux rob-nowman, renepick, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CSMACD-Algorithm.svg"><img width="512" alt="CSMACD-Algorithm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CSMACD-Algorithm.svg/512px-CSMACD-Algorithm.svg.png"></a>
-      title: "Carrier Sense Multiple Access"
+      title: "Carrier Sense Multiple Access Protocols"
       questions: 
         - "Why not use Non-persistent CSMA for Ethernet as opposed to 1-Persistent CSMA?  What is the benefit, but what is the sacrifice?"
         - "What might be an appropriate upper-bound for the random wait time if a collision occurs?  How might this upper bound change if collisions continue to happen?  What are the benefits and drawbacks of a very short or very long upper bound?"
