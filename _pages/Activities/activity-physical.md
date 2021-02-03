@@ -42,20 +42,20 @@ info:
         - "In Pure ALOHA, those who wish to transmit do so without checking if the medium is clear.  Collisions can happen at any time.  If a collision occurs, the nodes back off for a random period of time.  If any part of a transmission is corrupted, the whole frame is discarded; therefore, for how long is the transmission of two packets of size T vulnerable to collision with one another?"        
         - "What is the difference between Pure ALOHA and Slotted ALOHA?  What is the vulnerable time period for two packets of size T using Slotted ALOHA?  Which is more efficient?"
     - model: |
-        <a title="Stefan Schmidt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Manchester_encoding_both_conventions.svg"><img width="512" alt="Manchester encoding both conventions" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Manchester_encoding_both_conventions.svg/512px-Manchester_encoding_both_conventions.svg.png"></a>
-      title: "Communicating a bit via the Ethernet Standard IEEE 802.3"
-      questions: 
-        - "In your own words, how is a 0 or a 1 represented by 802.3 Manchester Encoding?"
-        - "Look at a vew values of the 802.3 Manchester encoding, the data, and the clock.  Write down a few sample values at a few snapshots in time.  What binary expression might relate the data and clock to the Manchester encoding?"       
-    - model: |
         <div align="left">
         The probability of <code>x</code> nodes transmitting a frame at the beginning of a Slotted ALOHA frame, when assuming that, on average, nodes transmit with probability <code>G</code>, is defined by a Poisson Distribution (an asymptotic extension of the Binomial Distribution): <span>\(P(x) = \frac{G^{x} e^{-G}}{x!}\)</span>.  
         </div>
       title: "ALOHA Transmission Efficiency"
       questions: 
         - "What is <code>P(1)</code>, the probability that exactly one node will transmit in a frame using Slotted ALOHA?"
-        - "In unslotted ALOHA, we must assume that only one node transmits during a specific frame, and also that no node transmits during the prior frame, to avoid a collision.  These are independent events, so the unslotted probability is <code>P(1) P(0)</code>.  What is this, and how does it relate to the Slotted ALOHA probability of successful transmission?"
-        - "Take the derivative of the probability function for slotted ALOHA and for unslotted ALOHA, and set it equal to 0 to maximize the function.  At what value of <code>G</code> is each maximized?  Plug in this value and set <code>x</code> equal to 1 to observe the maximum transmission efficiency."
+        - "In unslotted ALOHA, we must assume that only one node transmits during a specific frame, and also that no node transmits during the prior frame, to avoid a collision.  These are independent events, so the unslotted probability is <code>P = P(1) P(0)</code>.  What is this, and how does it relate to the Slotted ALOHA probability of successful transmission?"
+        - "Take the derivative of the probability function for slotted ALOHA and for unslotted ALOHA, and set it equal to 0 to maximize the function.  At what value of <code>G</code> is each maximized?  Plug in this value and set <code>x</code> equal to 1 to observe the maximum transmission efficiency."        
+    - model: |
+        <a title="Stefan Schmidt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Manchester_encoding_both_conventions.svg"><img width="512" alt="Manchester encoding both conventions" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Manchester_encoding_both_conventions.svg/512px-Manchester_encoding_both_conventions.svg.png"></a>
+      title: "Communicating a bit via the Ethernet Standard IEEE 802.3"
+      questions: 
+        - "In your own words, how is a 0 or a 1 represented by 802.3 Manchester Encoding?"
+        - "Look at a vew values of the 802.3 Manchester encoding, the data, and the clock.  Write down a few sample values at a few snapshots in time.  What binary expression might relate the data and clock to the Manchester encoding?"       
     - model: |
         <style type="text/css">
         .tg  {border-collapse:collapse;border-spacing:0;}
