@@ -92,7 +92,8 @@ info:
             Q.remove(u)
             
             for v in u.neighbors:
-                # proposed distance is the current cost to get to u by the cheapest means, plus the cost to get from u to v
+                # proposed distance is the current cost to get to u by the 
+                # cheapest means, plus the cost to get from u to v
                 let dist = distance[u] + u.cost(v) 
                 
                 if dist < distance[v]: # is this chepaer than the current cost to v?
