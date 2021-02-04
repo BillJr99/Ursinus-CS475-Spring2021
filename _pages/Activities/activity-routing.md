@@ -76,7 +76,7 @@ info:
         <div>
         <a title="Ibmua, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dijkstra_Animation.gif"><img width="256" alt="Dijkstra Animation" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif"></a>
         <br>
-        <div>
+        <div align="left">
         <code style="display:block; white-space:pre-wrap">
         let Q = []
         
@@ -109,7 +109,7 @@ info:
         - "Execute Dijkstra's Algorithm on the graph above, using node <strong>a</strong> as the source."
         - "How many cost comparisons are required to execute this algorithm?"
     - model: |
-        <div>
+        <div align="left">
         <code style="display:block; white-space:pre-wrap">
         distance = [inf] * N
         prev = [null] * N

@@ -28,7 +28,7 @@ info:
         - "An 802.11 WiFi frame supports additional message types to request permission and acknowledge permission to and from an access point to communicate.  Why does this differ from an 802.3 Ethernet frame?"
         - "An 802.11 WiFi frame contains an additional address field beyond the sender and receiver links.  What address might this represent?"
     - model: |
-        <div>
+        <div align="left">
         <code style="display:block; white-space:pre-wrap">
         let x = the bits representing the coefficients of a polynomial with coefficients 1 or 0
         let i = 0
