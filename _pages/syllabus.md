@@ -354,7 +354,7 @@ schedule:
     points: 100     
 - week: "5"
   date: "0"
-  title: "IP Multiplexing with NAT" 
+  title: "IPv4 Addressing and Subnets" 
   deliverables:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
@@ -364,7 +364,7 @@ schedule:
     points: 10
 - week: "5"
   date: "1"
-  title: "VPN"  
+  title: "IP Multiplexing with NAT"  
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
@@ -427,7 +427,7 @@ schedule:
     rlink: false   
 - week: "7"
   date: "2"
-  title: "Tunneling" 
+  title: "VPN and Tunneling" 
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf" 

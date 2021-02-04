@@ -12,6 +12,7 @@ info:
     - To differentiate between a hub and a switch
     - To define a packet including its boundaries and standardizing features
     - To explain the use of a sliding window protocol for efficient in-order transmission
+    - To explain the role and function of Link Layer protocols such as ARP and the Ethernet and WiFi frame
         
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_6_v8.0.pptx"  
@@ -24,6 +25,8 @@ info:
       questions: 
         - "What constitutes an address at the link layer?  How large is this address, and how does it differ from an IP address?"
         - "The Ethernet frame is nothing more than a sequence of bits.  How might we indicate <a href=\"https://en.wikipedia.org/wiki/Ethernet_frame#Structure\">when a packet begins and ends</a> so that receivers know how to parse the data?"
+        - "An 802.11 WiFi frame supports additional message types to request permission and acknowledge permission to and from an access point to communicate.  Why does this differ from an 802.3 Ethernet frame?"
+        - "An 802.11 WiFi frame contains an additional address field beyond the sender and receiver links.  What address might this represent?"
     - model: |
         <div>
         <code>
