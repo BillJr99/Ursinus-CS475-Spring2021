@@ -76,7 +76,7 @@ info:
         </thead>
         <tbody>
           <tr>
-            <td class="tg-fymr">1-Persistent CSMA/CD (Ethernet)</td>
+            <td class="tg-fymr">1-Persistent CSMA/CD (Ethernet - Unslotted)</td>
             <td class="tg-0pky">Listen before sending (CSMA) and send when clear; if a collision is detected via the receiving line (CD), stop transmitting and randomly wait before retrying when the medium is clear.  Alternatively, CSMA without CD cannot stop transmitting as soon as the collision is detected, but rather it completes the frame despite the data corruption.</td>
           </tr>
           <tr>
@@ -97,6 +97,7 @@ info:
       questions: 
         - "Why not use Non-persistent CSMA for Ethernet as opposed to 1-Persistent CSMA?  What is the benefit, but what is the sacrifice?"
         - "What might be an appropriate upper-bound for the random wait time if a collision occurs?  How might this upper bound change if collisions continue to happen?  What are the benefits and drawbacks of a very short or very long upper bound?"
+        - "In what ways is Ethernet more efficient than Aloha?"
     - model: |
         <a title="Raysonho @ Open Grid Scheduler / Grid Engine, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:EthernetCableYellow3.jpg"><img width="512" alt="EthernetCableYellow3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/EthernetCableYellow3.jpg/512px-EthernetCableYellow3.jpg"></a>
         <br>
@@ -105,9 +106,9 @@ info:
         <a title="Zephyris at the English language Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CAT5e_Cable.jpg"><img width="512" alt="CAT5e Cable" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/CAT5e_Cable.jpg/512px-CAT5e_Cable.jpg"></a>
       title: "Wired Ethernet"
       questions: 
-        - "What are some ways an ethernet cable can be multiplexed to support faster throughput (or more &quot;lanes&quot;)?" 
+        - "What are some ways an Ethernet cable can be multiplexed to support faster throughput (or more &quot;lanes&quot;)?" 
         - "What do you think are the speed limiting factors for throughput on an Ethernet cable?"
-        - "In a twisted-pair cable such as CAT5e or CAT6 Ethernet, there are two cables for each ethernet connector pin (each of these pins has a pin connector and a ring connector).  How might differential voltages on these lines be used to identify a 1 or a 0 bit?"
+        - "In a twisted-pair cable such as CAT5e or CAT6 Ethernet, there are two cables for each Ethernet connector pin (each of these pins has a pin connector and a ring connector).  How might differential voltages on these lines be used to identify a 1 or a 0 bit?"
         - "Do you think thicker copper wire can support higher frequency RF oscillations?  What effect would this have on throughput?"
     - model: |
         <a title="Andrei Stroe, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wifi_hidden_station_problem.svg"><img width="512" alt="Wifi hidden station problem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Wifi_hidden_station_problem.svg/512px-Wifi_hidden_station_problem.svg.png"></a>
@@ -120,6 +121,7 @@ info:
         - "In the Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) algorithm described in the flowchart above, what does RTS and CTS mean?"
         - "To whom is an RTS or CTS message sent, if this feature is used?"
         - "If a node hears an RTS message sent, but does not hear the corresponding CTS, what might be happening?"
+        - "How might we multiplex multiple WiFi access points across the 2.4GHz spectrum?"
     - model: |
         <div align="left">
         Assuming orthogonal vectors a and b (called chip sequences or codes), generated from a <a href="https://en.wikipedia.org/wiki/Walsh_matrix">Hadamard-Walsh Code</a>: <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c416b33910828e0941fec78eec1170c79e7ca146" alt="Orthogonal Vector Dot Product Definition from Wikipedia"><br>
