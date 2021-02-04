@@ -77,7 +77,7 @@ info:
         <a title="Ibmua, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dijkstra_Animation.gif"><img width="256" alt="Dijkstra Animation" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif"></a>
         <br>
         <div>
-        <code>
+        <code style="display:block; white-space:pre-wrap">
         let Q = []
         
         for vertex in G:
@@ -110,7 +110,7 @@ info:
         - "How many cost comparisons are required to execute this algorithm?"
     - model: |
         <div>
-        <code>
+        <code style="display:block; white-space:pre-wrap">
         distance = [inf] * N
         prev = [null] * N
         distance[source] = 0

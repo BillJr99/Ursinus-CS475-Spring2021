@@ -29,7 +29,7 @@ info:
         - "An 802.11 WiFi frame contains an additional address field beyond the sender and receiver links.  What address might this represent?"
     - model: |
         <div>
-        <code>
+        <code style="display:block; white-space:pre-wrap">
         let x = the bits representing the coefficients of a polynomial with coefficients 1 or 0
         let i = 0
         let result = input + ([0] * len(x)) # append len(x) 0 bits to the end of input
