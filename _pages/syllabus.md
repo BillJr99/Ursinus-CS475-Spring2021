@@ -276,6 +276,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 4"
     rlink: false 
+  - rtitle: "The RFC Video"
+    rlink: "https://www.youtube.com/watch?v=8IXLpoN8Xj0"
   deliverables:
   - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
     dlink: "Assignments/RFC"
