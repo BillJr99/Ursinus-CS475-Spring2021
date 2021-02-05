@@ -223,7 +223,7 @@ DTSTAMP:20210205T000000Z
 DTSTART;VALUE=DATE:20210205
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 4\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
+DESCRIPTION:\nReading: Dordal Ch. 4\nReading: The RFC Video https://www.youtube.com/watch?v=8IXLpoN8Xj0\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
