@@ -28,6 +28,8 @@ Review the following standard Request for Comments (RFC) documents, which descri
 
 Describe, in your own words, what an RFC is.  What are the major components common to each RFC, and what do you notice about their structure?  How do RFC documents differentiate between what an implementing program *must* do, and what a program can optionally do? If an implementing program handles a protocol concept in an optional but non-standard way, what are the risks?
 
+This spoof [RFC 2324](https://tools.ietf.org/html/rfc2324) describes an HTTP-like protocol for controlling a cofee pot, and is a great place to start when reading about the types of standards proposed by an RFC.
+
 ## Designing a Protocol
 
 Imagine that the course registration process did not involve using a computer to sign up for classes using a web-page.  Instead, you called the Registrar on the telephone, and let them know which classes you wished to take.  In turn, the Registrar would inform you if you are able to take those classes, and, if so, would register you for those classes and confirm your schedule.
