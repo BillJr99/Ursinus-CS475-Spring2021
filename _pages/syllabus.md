@@ -118,7 +118,6 @@ textbooks:
   edition: "2nd Edition"
   isbn: "978-0133594140"
   link: http://intronetworks.cs.luc.edu/
-  image: http://intronetworks.cs.luc.edu/cover.png
   isrequired: true 
   freelyavailable: http://intronetworks.cs.luc.edu/current2/ComputerNetworks.pdf
 - title: "TCP/IP Tutorial and Technical Overview"
