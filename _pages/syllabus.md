@@ -319,7 +319,14 @@ schedule:
   - rtitle: "Dordal Ch. 7"
     rlink: false    
   - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
-    rlink: "https://youtu.be/X2cLpzFRMT4"     
+    rlink: "https://youtu.be/X2cLpzFRMT4"  
+  deliverables:
+  - dtitle: "Lab: Ethernet with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
+    points: 10
+  - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
+    points: 10    
 - week: "4"
   date: "1"
   title: "The Network Layer and IPv4"  
@@ -333,13 +340,6 @@ schedule:
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
     rlink: "https://youtu.be/H9DivCEFuUg"       
-  deliverables:
-  - dtitle: "Lab: Ethernet with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
-    points: 10
-  - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
-    points: 10
 - week: "4"
   date: "2"
   title: "IPv4 Addressing and Subnets"  
