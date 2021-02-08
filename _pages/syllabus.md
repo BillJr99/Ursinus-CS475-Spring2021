@@ -276,8 +276,6 @@ schedule:
   date: "2"
   title: "Ethernet"  
   readings:
-  - rtitle: "Dordal Ch. 4"
-    rlink: false 
   - rtitle: "The RFC Video"
     rlink: "https://www.youtube.com/watch?v=8IXLpoN8Xj0"
   deliverables:
@@ -287,6 +285,9 @@ schedule:
 - week: "3"
   date: "0"
   title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
+  readings:
+  - rtitle: "Dordal Ch. 4"
+    rlink: false   
   deliverables: 
   - dtitle: "Lab: HTTP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
