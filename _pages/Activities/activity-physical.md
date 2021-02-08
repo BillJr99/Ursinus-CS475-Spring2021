@@ -114,6 +114,8 @@ info:
         <a title="Andrei Stroe, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wifi_hidden_station_problem.svg"><img width="512" alt="Wifi hidden station problem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Wifi_hidden_station_problem.svg/512px-Wifi_hidden_station_problem.svg.png"></a>
         <br>
         <a title="jjgarcia.tsc, Attribution, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Csma_ca.svg"><img width="256" alt="Csma ca" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Csma_ca.svg/256px-Csma_ca.svg.png"></a>
+        <br>
+        <a title="Michael Gauthier, Wireless Networking in the Developing World KelleyCook, image improvements Whidou, French translation, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2.4_GHz_Wi-Fi_channels_(802.11b,g_WLAN).svg"><img width="512" alt="2.4 GHz Wi-Fi channels (802.11b,g WLAN)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2.4_GHz_Wi-Fi_channels_%28802.11b%2Cg_WLAN%29.svg/512px-2.4_GHz_Wi-Fi_channels_%28802.11b%2Cg_WLAN%29.svg.png"></a>
       title: "Wireless Protocols Including IEEE 802.11"
       questions: 
         - "Why can't we use CSMA/CD with WiFi like we could with Ethernet?  Hint: the problem described by the three wireless nodes A, B, and C above is called the &quot;Hidden Node Problem&quot;"
@@ -121,7 +123,7 @@ info:
         - "In the Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) algorithm described in the flowchart above, what does RTS and CTS mean?"
         - "To whom is an RTS or CTS message sent, if this feature is used?"
         - "If a node hears an RTS message sent, but does not hear the corresponding CTS, what might be happening?"
-        - "How might we multiplex multiple WiFi access points across the 2.4GHz spectrum?"
+        - "How might we multiplex multiple WiFi access points across the 2.4GHz spectrum using Frequency Division Multiple Access (FDMA)?  Which channel selections best avoid interference between access points in the 2.4GHz spectrum?"
     - model: |
         <div align="left">
         Assuming orthogonal vectors a and b (called chip sequences or codes), generated from a <a href="https://en.wikipedia.org/wiki/Walsh_matrix">Hadamard-Walsh Code</a>: <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c416b33910828e0941fec78eec1170c79e7ca146" alt="Orthogonal Vector Dot Product Definition from Wikipedia"><br>
