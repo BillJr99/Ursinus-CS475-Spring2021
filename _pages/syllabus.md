@@ -257,7 +257,7 @@ schedule:
     rlink: false  
 - week: "2"
   date: "0"
-  title: "Ethernet"  
+  title: "TDMA with CSMA and ALOHA"  
   deliverables:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
@@ -267,14 +267,14 @@ schedule:
     rlink: "https://www.youtube.com/watch?v=7GUvneqgmvM"  
 - week: "2"
   date: "1"
-  title: "CSMA" 
+  title: "CSMA and ALOHA" 
   deliverables:
   - dtitle: "Lab: Wireshark Overview Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
     points: 10    
 - week: "2"
   date: "2"
-  title: "Wi-Fi"  
+  title: "Ethernet"  
   readings:
   - rtitle: "Dordal Ch. 4"
     rlink: false 
@@ -283,23 +283,26 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
     dlink: "Assignments/RFC"
-    points: 100    
+    points: 100 
 - week: "3"
   date: "0"
-  title: "The Link Layer" 
-  link: "./Activities/LinkLayer"  
+  title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
   deliverables: 
   - dtitle: "Lab: HTTP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
     points: 10
   - dtitle: "Lab: Ethernet with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"     
-    points: 10
+    points: 10   
+- week: "3"
+  date: "1"
+  title: "The Link Layer" 
+  link: "./Activities/LinkLayer"  
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false   
 - week: "3"
-  date: "1"
+  date: "2"
   title: "Switching" 
   readings:
   - rtitle: "Dordal Ch. 6"
@@ -308,20 +311,16 @@ schedule:
     rlink: "https://youtu.be/lMGWJZLTulY"
   - rtitle: "Kurose and Ross: Error Detection and Correction"
     rlink: "https://youtu.be/x-rQ3RiI7I0"     
-- week: "3"
-  date: "2"
-  title: "From Bits to Packets"  
-  readings:
-  - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
-    rlink: "https://youtu.be/X2cLpzFRMT4"     
-- week: "3"
-  date: "3"
+- week: "4"
+  date: "0"
   title: "From Bits to Packets" 
   readings:
   - rtitle: "Dordal Ch. 7"
-    rlink: false  
+    rlink: false    
+  - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
+    rlink: "https://youtu.be/X2cLpzFRMT4"     
 - week: "4"
-  date: "0"
+  date: "1"
   title: "The Network Layer"  
   link: "./Activities/NetworkLayer"
   readings:
