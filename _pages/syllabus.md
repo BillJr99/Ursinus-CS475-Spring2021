@@ -322,13 +322,17 @@ schedule:
     rlink: "https://youtu.be/X2cLpzFRMT4"     
 - week: "4"
   date: "1"
-  title: "The Network Layer"  
+  title: "The Network Layer and IPv4"  
   link: "./Activities/NetworkLayer"
   readings:
   - rtitle: "Dordal Ch. 9"
     rlink: false  
   - rtitle: "Kurose and Ross: The Network Layer Data Plane"
-    rlink: "https://youtu.be/olbr3WZwrdU"     
+    rlink: "https://youtu.be/olbr3WZwrdU"  
+  - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
+    rlink: "https://youtu.be/sdIpLuIR1ZY"   
+  - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
+    rlink: "https://youtu.be/H9DivCEFuUg"       
   deliverables:
   - dtitle: "Lab: Ethernet with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
@@ -336,14 +340,6 @@ schedule:
   - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
     points: 10
-- week: "4"
-  date: "1"
-  title: "IPv4"
-  readings:
-  - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
-    rlink: "https://youtu.be/sdIpLuIR1ZY"   
-  - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
-    rlink: "https://youtu.be/H9DivCEFuUg"   
 - week: "4"
   date: "2"
   title: "IPv4 Addressing and Subnets"  
