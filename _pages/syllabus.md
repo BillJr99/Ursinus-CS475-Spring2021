@@ -261,7 +261,10 @@ schedule:
   deliverables:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
-    points: 10    
+    points: 10 
+  readings:
+  - rtitle: "Transoceanic Networks Video"
+    rlink: "https://www.youtube.com/watch?v=7GUvneqgmvM"  
 - week: "2"
   date: "1"
   title: "CSMA" 
