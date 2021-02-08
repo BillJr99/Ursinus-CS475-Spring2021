@@ -223,7 +223,7 @@ DTSTAMP:20210205T000000Z
 DTSTART;VALUE=DATE:20210205
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 4\nReading: The RFC Video https://www.youtube.com/watch?v=8IXLpoN8Xj0\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
+DESCRIPTION:\nReading: The RFC Video https://www.youtube.com/watch?v=8IXLpoN8Xj0\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Assignments/RFC
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -250,7 +250,7 @@ DTSTAMP:20210208T000000Z
 DTSTART;VALUE=DATE:20210208
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: HTTP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Lab: Ethernet with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf
+DESCRIPTION:\nReading: Dordal Ch. 4\nDeliverable: Lab: HTTP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Lab: Ethernet with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
