@@ -263,8 +263,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
     points: 10 
   readings:
-  - rtitle: "Transoceanic Networks Video"
-    rlink: "https://www.youtube.com/watch?v=7GUvneqgmvM"  
+  - rtitle: "Transoceanic Cable Video"
+    rlink: "https://www.youtube.com/watch?v=T96P2d2UVsQ"  
 - week: "2"
   date: "1"
   title: "CSMA and ALOHA" 
