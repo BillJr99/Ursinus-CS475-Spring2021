@@ -49,7 +49,7 @@ info:
       questions: 
         - "What do you think a port number represents?  In other words, how does the Transport Layer multiplex or share the network?"
         - "Review the UDP RFC and describe the format of the checksum."
-        - "Error detection is also employed at the link layer.  Why might error detection occur at this layer?
+        - "Error detection is also employed at the link layer.  Why might error detection occur at this layer?"
         - "UDP does not inherently acknowledge packet receipt.  Why is it valuable to detect packet errors anyway?"
         - "What must one do if ordered, reliable packet delivery is essential?"
         - "What kind of applications might benefit from a transport layer protocol that does not provide reliable automatic retransmission?"
