@@ -175,7 +175,7 @@ info:
         - "How might you compute a round trip time estimate for determining that a packet has been lost?  Should you assume a loss as soon as this estimate has been reached?"
         - "How does TCP Tahoe improve over TCP Reno by avoiding a return to Slow Start from the beginning on packet loss?"
         - "What would be the advantages and disadvantages of leaving Slow Start after observing rising round trip times, rather than waiting for a loss, as TCP Vegas does?"
-        - "Suppose you have a UDP socket open and transmitting, causing congestion on the network.  The TCP senders throttle back automatically due to congestion control.  What happens to the UDP sender?  Over time, what happens to the TCP senders' throughputs?"
+        - "Suppose you have a UDP socket open and transmitting, causing congestion on the network.  The TCP senders throttle back automatically due to congestion control.  What happens to the UDP sender?  Over time, what happens to the throughputs of the TCP senders?"
         
 tags:
   - transport
