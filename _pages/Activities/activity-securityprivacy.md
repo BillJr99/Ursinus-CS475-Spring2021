@@ -18,7 +18,7 @@ info:
 
   models:
     - model: |    
-        <img src="../images/activity-digitalsignatures/csunplugged-public-map.png" alt="Public Key Map from CSUnplugged, shared under a Creative Commons BY-NC-SA 4.0 License">
+        <img src="../images/activity-securityprivacy/csunplugged-public-map.png" alt="Public Key Map from CSUnplugged, shared under a Creative Commons BY-NC-SA 4.0 License">
       title: Public-Key Cryptography
       questions:
         - Choose a secret numeric value that you want to send securely to a partner.
@@ -28,7 +28,7 @@ info:
         - Your partner (and only your partner) should look at the Private Map (see below), which highlights the nodes that should be added together to obtain the value.
         - How did this work?  If every student used a unique "map," how could you use this approach to send data securely to anyone?
     - model: |    
-        <img src="../images/activity-digitalsignatures/csunplugged-public-map2.png" alt="Public Key Map from CSUnplugged, shared under a Creative Commons BY-NC-SA 4.0 License">
+        <img src="../images/activity-securityprivacy/csunplugged-public-map2.png" alt="Public Key Map from CSUnplugged, shared under a Creative Commons BY-NC-SA 4.0 License">
       title: Digital Signatures
       questions:
         - If I encrypt something using someone's private map, who can decode it?
