@@ -625,7 +625,7 @@ schedule:
     rlink: false  
 - week: "14"
   date: "0"
-  title: "Security and Privacy"   
+  title: "Security and Privacy"
   deliverables:
   - dtitle: "Lab: DNS with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
@@ -635,7 +635,7 @@ schedule:
     points: 10
 - week: "14"
   date: "1"
-  title: "Security and Privacy"   
+  title: "Security and Privacy with Public Key Cryptosystems"
   deliverables:   
     - dtitle: "Participation: Second Self-Assessment Due"
       dlink: "./Assignments/Participation/SelfAssessment"
