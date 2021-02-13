@@ -573,6 +573,7 @@ schedule:
 - week: "12"
   date: "1"
   title: "HTTP and SMTP"  
+  link: "/Ursinus-WebMobile-HTTP"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  

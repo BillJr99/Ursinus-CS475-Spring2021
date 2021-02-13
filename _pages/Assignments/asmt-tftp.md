@@ -35,11 +35,11 @@ tags:
 ---
 
 ## A tftp Server
-You should construct a file transfer server that is using the TFTP protocol ([RFC 1350](https://tools.ietf.org/html/rfc1350). Part one of this assignment involves constructing the server, while part two involves constructing the client.
+You should construct a file transfer server that is using the TFTP protocol ([RFC 1350](https://tools.ietf.org/html/rfc1350)). Part one of this assignment involves constructing the server, while part two involves constructing the client.
 
 Your programs should adhere to the published specifications so that they can inter-operate with existing clients and servers.
 
-You could test your server with the tftp client available under most Unix (and Unix-like) operating systems (e.g. Solaris, Linux, OpenBSD, etc.). However, if you do, note that some extensions to tftp are implemented by modern clients, rendering this spec non-backwards compatible. You'll need to implement slightly different message formats to do so (look at the tftp OACK extensions).  You might, instead, copy your server implementation and write a small client for testing instead, which is also acceptable.
+You could test your server with the tftp client available under most Unix (and Unix-like) operating systems (e.g. Solaris, Linux, OpenBSD, etc.). [Here](https://linuxhint.com/install_tftp_server_ubuntu/) is an article describing how to install and configure tftp on Ubuntu.  However, if you do, note that some extensions to tftp are implemented by modern clients, rendering this spec non-backwards compatible. You'll need to implement slightly different message formats to do so (look at the tftp OACK extensions).  You might, instead, copy your server implementation and write a small client for testing instead, which is also acceptable.
 
 It is a requirement that the server should be able to accommodate multiple clients at the same time (i.e. it should be able to exchange data with more than one client). Having a client wait until the transfer with another client is complete is not acceptable.  You can accomplish this by putting your server code into a threaded routine, and starting the thread with the connection socket as soon as a connection is made by the primary server socket in `main()`.  
 
