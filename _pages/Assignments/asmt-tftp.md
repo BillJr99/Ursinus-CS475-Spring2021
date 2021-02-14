@@ -37,7 +37,9 @@ tags:
 ## A tftp Server
 You should construct a file transfer server that is using the TFTP protocol ([RFC 1350](https://tools.ietf.org/html/rfc1350)). Part one of this assignment involves constructing the server, while part two involves constructing the client.
 
-Your programs should adhere to the published specifications so that they can inter-operate with existing clients and servers.
+Your programs should adhere to the published specifications so that they can inter-operate with existing clients and servers.  The protocol follows this state machine \[[^1]\]:
+
+![TFTP State Machine](https://raw.githubusercontent.com/staskobzar/tftp-ragel/master/doc/tftp_fsm.png)
 
 You could test your server with the tftp client available under most Unix (and Unix-like) operating systems (e.g. Solaris, Linux, OpenBSD, etc.). [Here](https://linuxhint.com/install_tftp_server_ubuntu/) is an article describing how to install and configure tftp on Ubuntu.  However, if you do, note that some extensions to tftp are implemented by modern clients, rendering this spec non-backwards compatible. You'll need to implement slightly different message formats to do so (look at the tftp OACK extensions).  You might, instead, copy your server implementation and write a small client for testing instead, which is also acceptable.
 
@@ -45,3 +47,5 @@ Your server should handle multiple clients at the same time.  You can accomplish
 
 ### Notes
 The tftp service is using port 69 which requires superuser (administrator) access rights. Since you want to be able to run your server on machines where you may not have superuser privileges, you should include the option to run the server from another (non-privileged) port.
+
+[^1]: Image created by [staskobzar](https://github.com/staskobzar) under the [GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.en.html).
