@@ -62,9 +62,13 @@ info:
         - "How might a sender attach a file?"
     - model: |
         <a href="https://www.baeldung.com/a-guide-to-java-sockets">Socket Programming Tutorial</a>
+        <br>
+        <a href="https://www.infoworld.com/article/2853780/socket-programming-for-scalable-systems.html">Threaded Socket Programming Example</a>
       title: "Socket Programming"
       questions: 
         - "Create a socket to connect to your favorite web server and make an HTTP request, printing its response to the screen." 
+        - "What port number does your server socket use, and what port should your client use to connect?"
+        - "How do we free up the primary server socket port for subsequent connections, so that they can be handled simultaneously?"
     - model: |
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TJiW31F5xrE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       title: "End-to-End Review"
