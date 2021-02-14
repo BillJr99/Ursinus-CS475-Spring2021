@@ -536,9 +536,6 @@ schedule:
   - dtitle: "Programming Assignment: HTTP Client Due"
     dlink: "Assignments/HTTPClient"
     points: 100  
-  - dtitle: "Programming Assignment: TCP over UDP Handed Out"  
-    dlink: "Assignments/TCPOverUDP"
-    points: 100  
   readings:
   - rtitle: "Dordal Ch. 18"
     rlink: false  
@@ -592,7 +589,11 @@ schedule:
   - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
     rlink: "https://youtu.be/ak5bbb-xHLI" 
   - rtitle: "Kurose and Ross: Socket Programming"
-    rlink: "https://youtu.be/_iHMMo7SDfQ"     
+    rlink: "https://youtu.be/_iHMMo7SDfQ" 
+  deliverables:
+  - dtitle: "Programming Assignment: TFTP Handed Out"  
+    dlink: "Assignments/TFTP"
+    points: 100    
 - week: "13"
   date: "0"
   title: "Socket Programming"  
@@ -602,20 +603,14 @@ schedule:
     points: 10
   - dtitle: "Lab: DNS with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
-    points: 10
+    points: 10      
 - week: "13"
   date: "1"
   title: "Multithreaded Socket Programming"    
   deliverables:
     - dtitle: "Participation: Second Self-Assessment Handed Out"
       dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10     
-    - dtitle: "Programming Assignment: TCP over UDP Due"  
-      dlink: "Assignments/TCPOverUDP"
-      points: 100  
-    - dtitle: "Programming Assignment: TFTP Handed Out"  
-      dlink: "Assignments/TFTP"
-      points: 100         
+      points: 10          
 - week: "13"
   date: "2"
   title: "Security and Privacy"
