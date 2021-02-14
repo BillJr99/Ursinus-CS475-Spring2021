@@ -41,7 +41,7 @@ Your programs should adhere to the published specifications so that they can int
 
 You could test your server with the tftp client available under most Unix (and Unix-like) operating systems (e.g. Solaris, Linux, OpenBSD, etc.). [Here](https://linuxhint.com/install_tftp_server_ubuntu/) is an article describing how to install and configure tftp on Ubuntu.  However, if you do, note that some extensions to tftp are implemented by modern clients, rendering this spec non-backwards compatible. You'll need to implement slightly different message formats to do so (look at the tftp OACK extensions).  You might, instead, copy your server implementation and write a small client for testing instead, which is also acceptable.
 
-It is a requirement that the server should be able to accommodate multiple clients at the same time (i.e. it should be able to exchange data with more than one client). Having a client wait until the transfer with another client is complete is not acceptable.  You can accomplish this by putting your server code into a threaded routine, and starting the thread with the connection socket as soon as a connection is made by the primary server socket in `main()`.  
+Your server should handle multiple clients at the same time.  You can accomplish this by putting your server code into a threaded routine, and starting the thread with the connection socket as soon as a connection is made by the primary server socket in `main()`.  
 
 ### Notes
 The tftp service is using port 69 which requires superuser (administrator) access rights. Since you want to be able to run your server on machines where you may not have superuser privileges, you should include the option to run the server from another (non-privileged) port.
