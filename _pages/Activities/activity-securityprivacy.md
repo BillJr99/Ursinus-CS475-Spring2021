@@ -15,6 +15,8 @@ info:
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_8_v8.0.pptx"
       title: Kurose Notes
+    - link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+      title: "HTTP Authorization Headers"
 
   models:
     - model: |    
