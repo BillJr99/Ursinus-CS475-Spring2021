@@ -69,6 +69,10 @@ info:
         - "Create a socket to connect to your favorite web server and make an HTTP request, printing its response to the screen." 
         - "What port number does your server socket use, and what port should your client use to connect?"
         - "How do we free up the primary server socket port for subsequent connections, so that they can be handled simultaneously?"
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <br>
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketServerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>          
     - model: |
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TJiW31F5xrE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       title: "End-to-End Review"
