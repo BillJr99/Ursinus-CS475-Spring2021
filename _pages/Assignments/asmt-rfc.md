@@ -19,12 +19,12 @@ tags:
 
 Review the following standard Request for Comments (RFC) documents, which describe the message formats and workflow of protocols.
 
-* FTP: [RFC 959](http://www.rfcs.org/rfc959.txt) 
-* DNS [RFC 1034](http://www.rfcs.org/rfc1034.txt) 
-* HTTP 1.1: [RFC 2616](http://www.rfcs.org/rfc2616.txt) 
-* SMTP: [RFC 2821](http://www.rfcs.org/rfc2821.txt) 
-* XMPP: [RFC 3920](http://www.rfcs.org/rfc3920.txt) 
-* SSH: [RFC 4250](http://www.rfcs.org/rfc4250.txt)
+* FTP: [RFC 959](https://tools.ietf.org/html/rfc959) 
+* DNS [RFC 1034](https://tools.ietf.org/html/rfc1034) 
+* HTTP 1.1: [RFC 2616](https://tools.ietf.org/html/rfc2616) 
+* SMTP: [RFC 2821](https://tools.ietf.org/html/rfc2821) 
+* XMPP: [RFC 3920](https://tools.ietf.org/html/rfc3920) 
+* SSH: [RFC 4250](https://tools.ietf.org/html/rfc4250)
 
 Describe, in your own words, what an RFC is.  What are the major components common to each RFC, and what do you notice about their structure?  How do RFC documents differentiate between what an implementing program *must* do, and what a program can optionally do? If an implementing program handles a protocol concept in an optional but non-standard way, what are the risks?
 
