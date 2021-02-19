@@ -29,7 +29,7 @@ info:
         - "What addresses are placed in the source and destination fields?  How might this differ from the MAC addresses used in the Link Layer header?"
         - "What, if any, information helps the IP protocol to provide throughput control, error correction, or packet ordering?  What, in your own words, is &quot;Best Effort&quot; quality-of-service?"
     - model: |
-        <a href="https://commons.wikimedia.org/wiki/File:Ipv4_address.svg#/media/File:Ipv4_address.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/1200px-Ipv4_address.svg.png" alt="Ipv4 address.svg"></a><br>By &lt;a href="https://en.wikipedia.org/wiki/en:User:Indeterminate" class="extiw" title="w:en:User:Indeterminate"&gt;Indeterminate&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2868206">Link</a>
+        <a href="https://commons.wikimedia.org/wiki/File:Ipv4_address.svg#/media/File:Ipv4_address.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/1200px-Ipv4_address.svg.png" alt="Ipv4 address.svg"></a><br>By <a href="https://en.wikipedia.org/wiki/en:User:Indeterminate" class="extiw" title="w:en:User:Indeterminate">Indeterminate</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2868206">Link</a>
       title: "IP Addressing"
       questions: 
         - "How large is an IPv4 Address?  What is the largest and smallest value that can be represented by each octet?"
