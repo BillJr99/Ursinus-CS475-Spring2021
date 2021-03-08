@@ -34,6 +34,8 @@ info:
       rlink: "https://tools.ietf.org/html/rfc792"
     - rtitle: "The ICMP Protocol"
       rlink: "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol"
+    - rtitle: "Ping"
+      rlink: "https://en.wikipedia.org/wiki/Ping_(networking_utility)"
       
 tags:
   - traceroute
