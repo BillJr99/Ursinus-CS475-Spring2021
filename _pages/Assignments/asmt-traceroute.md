@@ -51,3 +51,23 @@ Investigate the [ICMP RFC](https://tools.ietf.org/html/rfc792) to discover the m
 ## Part 2: Traceroute
 
 Encapsulate your ping functionality from part 1 into a function, and call that function in a loop.  Increment your sequence number and time-to-live (TTL) value on each packet sent.  When you receive a response, compute and verify its checksum, extract and verify its sequence number (which should match your most recently sent checksum), and print its contents to the screen.  Continue this loop while the ICMP code received is the `TTL Expired` message (ICMP code 11).  Print the time elapsed between the time you sent this packet and the time you received this response, and the source IP address that sent you the reply.  When you receive an `ICMP Echo Reply` message (ICMP code 0), do the same, but stop the loop.  If you do not receive a reply for a particular TTL hop after some timeout that you may choose, print asterisks to the screen to indicate that no reply was received, and continue.
+
+### Socket Timeout
+
+You can set a socket timeout in case a node doesn't send you back an ICMP packet.  When you set up your socket variable, if you call:
+
+```python
+sock.settimeout(5)
+```
+
+This will set a timeout of 5 seconds.  When you call:
+
+```python
+try:
+    packet, src = sock.recfrom(1024)
+    # your code here to process the packet...
+catch socket.timeout:
+    print("Timeout waiting for ICMP response")
+```
+
+You can catch an exception if the socket times out on receive, so that you don't end up stuck in an infinite loop.  You can modify your `while` loop so that you also quit the loop if the `ttl` reaches a certain value, like `16`, indicating that you are in such an infinite loop.
