@@ -66,7 +66,7 @@ This will set a timeout of 5 seconds.  When you call:
 try:
     packet, src = sock.recfrom(1024)
     # your code here to process the packet...
-catch socket.timeout:
+except socket.timeout:
     print("Timeout waiting for ICMP response")
 ```
 
