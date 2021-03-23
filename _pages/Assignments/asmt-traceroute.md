@@ -71,3 +71,7 @@ except socket.timeout:
 ```
 
 You can catch an exception if the socket times out on receive, so that you don't end up stuck in an infinite loop.  You can modify your `while` loop so that you also quit the loop if the `ttl` reaches a certain value, like `16`, indicating that you are in such an infinite loop.
+
+### Other Hints
+
+Don't forget to re-initialize your variables each time through the loop (for example, your `checksum` should start out as `0`, and your initial `icmptype` is `8`)!  You should set the TTL each time through the loop (incrementing by `1` each time).
