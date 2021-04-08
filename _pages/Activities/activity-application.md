@@ -60,6 +60,7 @@ info:
         - "How might a sender authenticate against the server?"
         - "Where does the sender indicate their email address?  What unfortunate consequence could result from this?"
         - "How might a sender attach a file?"
+        - "What might you do if you were sending non-text, like an MP3 file, over a text-based protocol like this one?"
     - model: |
         <a href="https://www.baeldung.com/a-guide-to-java-sockets">Socket Programming Tutorial</a>
         <br>
