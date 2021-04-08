@@ -71,7 +71,7 @@ def read_response(conn):
         chunk = conn.recv(1024)
         if not chunk: 
             break
-        data += str(chunk)
+        data += chunk.decode('utf-8', 'ignore')
         
     return data
 ```
@@ -97,7 +97,7 @@ def server(port):
             chunk = conn.recv(1024)
             if not chunk:
                 break
-            data += str(chunk)
+            data += chunk.decode('utf-8', 'ignore')
             
         # Process the request here
 ```
