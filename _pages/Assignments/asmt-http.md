@@ -52,6 +52,7 @@ import socket
 
 def connect(host, port, url):
     conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # SOCK_STREAM is a TCP connection over AF_INET, which is IP: TCP/IP
+    conn.setblocking(0)
     conn.connect((host, port))
     connstr = "GET " + url + " HTTP/1.1\r\n"
     conn.send(connstr.encode())
