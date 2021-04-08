@@ -23,6 +23,7 @@ info:
         - "Look up a few HTTP response code numbers.  What pattern do you see?"
         - "What are some HTTP client headers and what do they do?"
         - "How do you upload a file via HTTP?"
+        - "Since socket I/O is typically a blocking call, how can you know how much data to read from the socket so that you don't block forever waiting for data that never arrives?"
     - model: |
         <script type="syntaxhighlighter" class="brush: java"><![CDATA[
         S: 220 smtp.example.com ESMTP Postfix
