@@ -580,6 +580,8 @@ schedule:
     rlink: false  
   - rtitle: "Kurose and Ross: Email"
     rlink: "https://youtu.be/D3GMrOMR2dk"
+  - rtitle: "Why Files Become Bigger in Emails (Encoding) from Computerphile"
+    rlink: "https://www.youtube.com/watch?v=zV-fR7xA4Hc"
 - week: "12"
   date: "2"
   title: "Socket Programming"   
