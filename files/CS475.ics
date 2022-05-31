@@ -703,7 +703,7 @@ DTSTAMP:20210414T000000Z
 DTSTART;VALUE=DATE:20210414
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021//Ursinus-WebMobile-HTTP\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk\nDeliverable: Final Project: Project and Presentation Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Projects/Final
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS475-Spring2021//Ursinus-WebMobile-HTTP\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk\nReading: Why Files Become Bigger in Emails (Encoding) from Computerphile https://www.youtube.com/watch?v=zV-fR7xA4Hc\nDeliverable: Final Project: Project and Presentation Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2021/Projects/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
